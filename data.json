@@ -1,0 +1,6603 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "title": "Cascade Field Kitchen",
+    "checked": "2026-10-27",
+    "version": "Wiki reference + 1.4 database baseline; not fully verified against 1.5",
+    "note": "Nutrition uses source base values, before cooking-quality bonuses. Update 1.5 changed food values; references may lag. Every recipe and buff is editable."
+  },
+  "recipes": [
+    {
+      "id": "cookedcarbuncle-frying",
+      "name": "Cooked Carbuncle",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Carbuncle",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Carbuncle",
+      "hunger": 10.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Carbuncle",
+        "Cooked Carbuncle"
+      ]
+    },
+    {
+      "id": "cookedpest-frying",
+      "name": "Cooked Pest",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Pest",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Pest",
+      "hunger": 10.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Pest",
+        "Cooked Pest"
+      ]
+    },
+    {
+      "id": "cookedpestrump-frying",
+      "name": "Cooked Pest Rump",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Pest Rump",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Pest Rump",
+      "hunger": 12.5,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Pest Rump",
+        "Cooked Pest Rump"
+      ]
+    },
+    {
+      "id": "cookedpeccarychop-frying",
+      "name": "Cooked Peccary Chop",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Peccary Chop",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Peccary Chop",
+      "hunger": 15.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Peccary Chop",
+        "Cooked Peccary Chop"
+      ]
+    },
+    {
+      "id": "cookedpeccarysausages-frying",
+      "name": "Cooked Peccary Sausages",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Peccary Sausages",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Peccary Sausages",
+      "hunger": 30.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:50",
+      "aliases": [
+        "Peccary Sausages",
+        "Cooked Peccary Sausages"
+      ]
+    },
+    {
+      "id": "cookedaliendrumstick-frying",
+      "name": "Cooked Alien Drumstick",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Alien Drumstick",
+      "hunger": 25.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Alien Drumstick",
+        "Cooked Alien Drumstick"
+      ]
+    },
+    {
+      "id": "cookedexorheart-frying",
+      "name": "Cooked Exor Heart",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Exor Heart",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Exor Heart",
+      "hunger": 18.75,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:15",
+      "aliases": [
+        "Exor Heart",
+        "Cooked Exor Heart"
+      ]
+    },
+    {
+      "id": "antecheesetoastie-frying",
+      "name": "Antecheese Toastie",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Antecheese Sandwich",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Antecheese Toastie",
+      "hunger": 25.875,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Antecheese Toastie"
+      ]
+    },
+    {
+      "id": "cookedfriedegg-frying",
+      "name": "Cooked Fried \"Egg\"",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Fried \"Egg\"",
+      "hunger": 18.75,
+      "thirst": 6.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:20",
+      "aliases": [
+        "Fried \"Egg\"",
+        "Cooked Fried Egg"
+      ]
+    },
+    {
+      "id": "cookedeggpeccarytartine-frying",
+      "name": "Cooked \"Egg\" & Peccary Tartine",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw \"Egg\" & Peccary Tartine",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked \"Egg\" & Peccary Tartine",
+      "hunger": 71.3,
+      "thirst": 23.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:30",
+      "aliases": [
+        "\"Egg\" & Peccary Tartine",
+        "Cooked Egg & Peccary Tartine"
+      ]
+    },
+    {
+      "id": "cookedbutterypopcorn-frying",
+      "name": "Cooked Buttery Popcorn",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Buttery Popcorn Kernels",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Buttery Popcorn",
+      "hunger": 27.0,
+      "thirst": -8.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:30",
+      "aliases": [
+        "Buttery Popcorn",
+        "Cooked Buttery Popcorn"
+      ]
+    },
+    {
+      "id": "cookedantefishfilet-frying",
+      "name": "Cooked Antefish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Antefish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Antefish Filet",
+      "hunger": 10.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Antefish Filet",
+        "Cooked Antefish Filet"
+      ]
+    },
+    {
+      "id": "cookedchordfishfilet-frying",
+      "name": "Cooked Chordfish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Chordfish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Chordfish Filet",
+      "hunger": 10.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Chordfish Filet",
+        "Cooked Chordfish Filet"
+      ]
+    },
+    {
+      "id": "cookedportalfishfilet-frying",
+      "name": "Cooked Portal Fish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Portal Fish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Portal Fish Filet",
+      "hunger": 15.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Portal Fish Filet",
+        "Cooked Portal Fish Filet"
+      ]
+    },
+    {
+      "id": "cookedis0098tentacles-frying",
+      "name": "Cooked IS-0098 Tentacles",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw IS-0098 Tentacles",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked IS-0098 Tentacles",
+      "hunger": 15.0,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "IS-0098 Tentacles",
+        "Cooked IS-0098 Tentacles"
+      ]
+    },
+    {
+      "id": "cookedgutfisheelfilet-frying",
+      "name": "Cooked Gutfish Eel Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Gutfish Eel Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Gutfish Eel Filet",
+      "hunger": 15.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Gutfish Eel Filet",
+        "Cooked Gutfish Eel Filet"
+      ]
+    },
+    {
+      "id": "cookedradfishfilet-frying",
+      "name": "Cooked Radfish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Radfish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Radfish Filet",
+      "hunger": 17.5,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:10",
+      "aliases": [
+        "Radfish Filet",
+        "Cooked Radfish Filet"
+      ]
+    },
+    {
+      "id": "cookedmoonfishfilet-frying",
+      "name": "Cooked Moon Fish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Moon Fish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Moon Fish Filet",
+      "hunger": 17.5,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:10",
+      "aliases": [
+        "Moon Fish Filet",
+        "Cooked Moon Fish Filet"
+      ]
+    },
+    {
+      "id": "cookedinkfishfilet-frying",
+      "name": "Cooked Inkfish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Inkfish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Inkfish Filet",
+      "hunger": 17.5,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:10",
+      "aliases": [
+        "Inkfish Filet",
+        "Cooked Inkfish Filet"
+      ]
+    },
+    {
+      "id": "cookedcreamyinkfish-frying",
+      "name": "Cooked Creamy Inkfish",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Creamy Inkfish",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Creamy Inkfish",
+      "hunger": 25.3,
+      "thirst": 22.95,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:30",
+      "aliases": [
+        "Creamy Inkfish",
+        "Cooked Creamy Inkfish"
+      ]
+    },
+    {
+      "id": "cookeddarkwaterfishfilet-frying",
+      "name": "Cooked Darkwater Fish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Darkwater Fish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Darkwater Fish Filet",
+      "hunger": 22.5,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:30",
+      "aliases": [
+        "Darkwater Fish Filet",
+        "Cooked Darkwater Fish Filet"
+      ]
+    },
+    {
+      "id": "cookedfreyedrice-frying",
+      "name": "Cooked Fr-eyed Rice",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Fr-eyed Rice",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Fr-eyed Rice",
+      "hunger": 71.3,
+      "thirst": 29.75,
+      "buffs": [
+        "Grainy Vision"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Fr-eyed Rice",
+        "Cooked Fr-eyed Rice"
+      ]
+    },
+    {
+      "id": "cookedfrigidqueenfishfilet-frying",
+      "name": "Cooked Frigid Queenfish Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Frigid Queenfish Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Frigid Queenfish Filet",
+      "hunger": 17.5,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:10",
+      "aliases": [
+        "Frigid Queenfish Filet",
+        "Cooked Frigid Queenfish Filet"
+      ]
+    },
+    {
+      "id": "cookedsilkenbettafilet-frying",
+      "name": "Cooked Silken Betta Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Silken Betta Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Silken Betta Filet",
+      "hunger": 16.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Silken Betta Filet",
+        "Cooked Silken Betta Filet"
+      ]
+    },
+    {
+      "id": "cookedsilkyfishflorentine-frying",
+      "name": "Cooked Silky Fish Florentine",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Silky Fish Florentine",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Silky Fish Florentine",
+      "hunger": 50.6,
+      "thirst": 21.25,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:30",
+      "aliases": [
+        "Silky Fish Florentine",
+        "Cooked Silky Fish Florentine"
+      ]
+    },
+    {
+      "id": "cookedpenumbrafilet-frying",
+      "name": "Cooked Penumbra Filet",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Penumbra Filet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Penumbra Filet",
+      "hunger": 25.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:30",
+      "aliases": [
+        "Penumbra Filet",
+        "Cooked Penumbra Filet"
+      ]
+    },
+    {
+      "id": "cookedgooeymeatsteak-frying",
+      "name": "Cooked Gooey Meat Steak",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Larva Meat",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Gooey Meat Steak",
+      "hunger": 12.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:40",
+      "aliases": [
+        "Gooey Meat Steak",
+        "Cooked Gooey Meat Steak"
+      ]
+    },
+    {
+      "id": "cookedglimmeringmeatsteak-frying",
+      "name": "Cooked Glimmering Meat Steak",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Glimmering Meat Steak",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Glimmering Meat Steak",
+      "hunger": 36.8,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Glimmering Meat Steak",
+        "Cooked Glimmering Meat Steak"
+      ]
+    },
+    {
+      "id": "cookedskinkmeat-frying",
+      "name": "Cooked Skink Meat",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Raw Skink Meat",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Skink Meat",
+      "hunger": 25.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:10",
+      "aliases": [
+        "Skink Meat",
+        "Cooked Skink Meat"
+      ]
+    },
+    {
+      "id": "bread-baking",
+      "name": "Bread",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Bread",
+      "hunger": 12.5,
+      "thirst": 5.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Bread"
+      ]
+    },
+    {
+      "id": "pumpkinbread-baking",
+      "name": "Pumpkin Bread",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pumpkin Dough",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Pumpkin Bread",
+      "hunger": 37.5,
+      "thirst": 5.0,
+      "buffs": [
+        "Sedentary Lifestyle"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Pumpkin Bread"
+      ]
+    },
+    {
+      "id": "cookedbakedpotato-baking",
+      "name": "Cooked Baked Potato",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Potato",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Baked Potato",
+      "hunger": 10.0,
+      "thirst": 3.75,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Baked Potato",
+        "Cooked Baked Potato"
+      ]
+    },
+    {
+      "id": "cookedpestato-baking",
+      "name": "Cooked Pestato",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pestato",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Pestato",
+      "hunger": 20.7,
+      "thirst": 3.45,
+      "buffs": [
+        "Don't Pester Me"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:20",
+      "aliases": [
+        "Pestato",
+        "Cooked Pestato"
+      ]
+    },
+    {
+      "id": "cookedfries-baking",
+      "name": "Cooked Fries",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Fries",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Fries",
+      "hunger": 22.5,
+      "thirst": 3.75,
+      "buffs": [
+        "Sedentary Lifestyle"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "Fries",
+        "Cooked Fries"
+      ]
+    },
+    {
+      "id": "cookedcarrotfries-baking",
+      "name": "Cooked \"Carrot\" Fries",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw \"Carrot\" Fries",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked \"Carrot\" Fries",
+      "hunger": 27.5,
+      "thirst": 3.75,
+      "buffs": [
+        "Sedentary Lifestyle"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "0:45",
+      "aliases": [
+        "\"Carrot\" Fries",
+        "Cooked Carrot Fries"
+      ]
+    },
+    {
+      "id": "cookedstuffedroastpeccary-baking",
+      "name": "Cooked Stuffed Roast Peccary",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Stuffed Roast Peccary",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Stuffed Roast Peccary",
+      "hunger": 63.0,
+      "thirst": 28.75,
+      "buffs": [
+        "Primal Power"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Stuffed Roast Peccary",
+        "Cooked Stuffed Roast Peccary"
+      ]
+    },
+    {
+      "id": "bakedsimplepestpie-baking",
+      "name": "Baked Simple Pest Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Simple Pest Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Simple Pest Pie",
+      "hunger": 30.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Simple Pest Pie",
+        "Baked Simple Pest Pie",
+        "Slice of Simple Pest Pie"
+      ]
+    },
+    {
+      "id": "pestpotpie-baking",
+      "name": "Pest Pot Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pest Pot Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Pest Pot Pie",
+      "hunger": 22.75,
+      "thirst": 3.15,
+      "buffs": [
+        "Hearty Bite"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Pest Pot Pie",
+        "Slice of Pest Pot Pie"
+      ]
+    },
+    {
+      "id": "creepymeatpie-baking",
+      "name": "Creepy Meat Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Creepy Meat Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Creepy Meat Pie",
+      "hunger": 21.5,
+      "thirst": 7.65,
+      "buffs": [
+        "Flesh Ritual"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Creepy Meat Pie",
+        "Slice of Creepy Meat Pie"
+      ]
+    },
+    {
+      "id": "gumdropcookietray-baking",
+      "name": "Gumdrop Cookie Tray",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Gumdrop Cookie Tray",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Gumdrop Cookie",
+      "hunger": 13.0,
+      "thirst": 5.175,
+      "buffs": [
+        "Energy Boost"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Gumdrop Cookie Tray",
+        "Gumdrop Cookie"
+      ]
+    },
+    {
+      "id": "carbunclecasserole-baking",
+      "name": "Carbuncle Casserole",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Carbuncle Casserole",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Carbuncle Casserole",
+      "hunger": 16.5,
+      "thirst": 2.25,
+      "buffs": [
+        "Carbun Copy"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Carbuncle Casserole",
+        "Slice of Carbuncle Casserole"
+      ]
+    },
+    {
+      "id": "pekkiebrekkiehash-baking",
+      "name": "Pekkie Brekkie Hash",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pekkie Brekkie Hash",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Pekkie Brekkie Hash",
+      "hunger": 26.25,
+      "thirst": 6.75,
+      "buffs": [
+        "Very Hearty Bite"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:30",
+      "aliases": [
+        "Pekkie Brekkie Hash",
+        "Slice of Pekkie Brekkie Hash"
+      ]
+    },
+    {
+      "id": "carbunclepizza-baking",
+      "name": "Carbuncle Pizza",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Carbuncle Pizza",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Carbuncle Pizza",
+      "hunger": 12.0,
+      "thirst": 2.25,
+      "buffs": [
+        "Wahoo!"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:30",
+      "aliases": [
+        "Carbuncle Pizza",
+        "Slice of Carbuncle Pizza"
+      ]
+    },
+    {
+      "id": "glowinggteau-baking",
+      "name": "Glowing G\u00e2teau",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Glowing G\u00e2teau",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Glowing G\u00e2teau",
+      "hunger": 18.0,
+      "thirst": 6.525,
+      "buffs": [
+        "Restoring Bite"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Glowing G\u00e2teau",
+        "Slice of Glowing G\u00e2teau"
+      ]
+    },
+    {
+      "id": "crumbeddarkwaterfish-baking",
+      "name": "Crumbed Darkwater Fish",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Crumbed Darkwater Fish",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Piece of Crumbed Darkwater Fish",
+      "hunger": 21.75,
+      "thirst": 0.0,
+      "buffs": [
+        "Fish Out of Water"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Crumbed Darkwater Fish",
+        "Piece of Crumbed Darkwater Fish"
+      ]
+    },
+    {
+      "id": "roastednorisheettray-baking",
+      "name": "Roasted Nori Sheet Tray",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Nori Sheet Tray",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Roasted Nori Sheet",
+      "hunger": 17.5,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Roasted Nori Sheet Tray",
+        "Roasted Nori Sheet"
+      ]
+    },
+    {
+      "id": "cookedpumpkinslices-baking",
+      "name": "Cooked Pumpkin Slices",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pumpkin Slices",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Pumpkin Slice",
+      "hunger": 10.0,
+      "thirst": 4.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Pumpkin Slices",
+        "Cooked Pumpkin Slices",
+        "Pumpkin Slice"
+      ]
+    },
+    {
+      "id": "pumpkincookietray-baking",
+      "name": "Pumpkin Cookie Tray",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pumpkin Cookie Tray",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Pumpkin Cookie",
+      "hunger": 15.5,
+      "thirst": 4.725,
+      "buffs": [
+        "Gourd Skin"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Pumpkin Cookie Tray",
+        "Pumpkin Cookie"
+      ]
+    },
+    {
+      "id": "bakedpumpkinpie-baking",
+      "name": "Baked Pumpkin Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Pumpkin Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Pumpkin Pie",
+      "hunger": 23.0,
+      "thirst": 6.525,
+      "buffs": [
+        "Gourd Body"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Pumpkin Pie",
+        "Baked Pumpkin Pie",
+        "Slice of Pumpkin Pie"
+      ]
+    },
+    {
+      "id": "bakedapplepie-baking",
+      "name": "Baked Apple Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Apple Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Apple Pie",
+      "hunger": 26.25,
+      "thirst": 8.775,
+      "buffs": [
+        "Slice of Home"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Apple Pie",
+        "Baked Apple Pie",
+        "Slice of Apple Pie"
+      ]
+    },
+    {
+      "id": "bakedsaltedhoneypie-baking",
+      "name": "Baked Salted Honey Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Salted Honey Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Salted Honey Pie",
+      "hunger": 32.5,
+      "thirst": 3.6,
+      "buffs": [
+        "Honey Sealed"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Salted Honey Pie",
+        "Baked Salted Honey Pie",
+        "Slice of Salted Honey Pie"
+      ]
+    },
+    {
+      "id": "bakedshadowberrypie-baking",
+      "name": "Baked Shadowberry Pie",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Shadowberry Pie",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Shadowberry Pie",
+      "hunger": 28.25,
+      "thirst": 17.325,
+      "buffs": [
+        "Shady Business"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "3:20",
+      "aliases": [
+        "Shadowberry Pie",
+        "Baked Shadowberry Pie",
+        "Slice of Shadowberry Pie"
+      ]
+    },
+    {
+      "id": "carrotcake-baking",
+      "name": "\"Carrot\" Cake",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw \"Carrot\" Cake",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of \"Carrot\" Cake",
+      "hunger": 30.0,
+      "thirst": 6.525,
+      "buffs": [
+        "Healthy-Ish Bite"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "\"Carrot\" Cake",
+        "Carrot Cake",
+        "Slice of Carrot Cake"
+      ]
+    },
+    {
+      "id": "shrimpspack-baking",
+      "name": "Shrimps Pack",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Shrimps Pack",
+          "count": 1
+        }
+      ],
+      "portions": 9,
+      "portionName": "Shrimp",
+      "hunger": 8.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:40",
+      "aliases": [
+        "Shrimps Pack",
+        "Shrimp"
+      ]
+    },
+    {
+      "id": "anniversarycake-baking",
+      "name": "Anniversary Cake",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Anniversary Cake",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Slice of Anniversary Cake",
+      "hunger": 32.0,
+      "thirst": 14.4,
+      "buffs": [
+        "Healthy-Ish Bite"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/raw-anniversary-cake/",
+      "cookTime": null,
+      "aliases": [
+        "Anniversary Cake",
+        "Slice of Anniversary Cake"
+      ]
+    },
+    {
+      "id": "roastedstuffedmushroomtray-baking",
+      "name": "Roasted Stuffed Mushroom Tray",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Stuffed Mushroom Tray",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Roasted Stuffed Mushroom",
+      "hunger": 28.25,
+      "thirst": 8.1,
+      "buffs": [
+        "Medi-Shroom"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-mushroom-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Roasted Stuffed Mushroom Tray",
+        "Roasted Stuffed Mushroom"
+      ]
+    },
+    {
+      "id": "roastedstuffedpepperstray-baking",
+      "name": "Roasted Stuffed Peppers Tray",
+      "method": "Baking",
+      "ingredients": [
+        {
+          "name": "Raw Stuffed Peppers Tray",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Roasted Stuffed Pepper",
+      "hunger": 30.5,
+      "thirst": 5.175,
+      "buffs": [
+        "Royal Presence"
+      ],
+      "notes": "Sources disagree: item infobox lists 10 hunger / 4 thirst; its Food Values table lists 30 / 5 at base quality. Database baseline is displayed; edit to match your game.",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-peppers-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Roasted Stuffed Peppers Tray",
+        "Roasted Stuffed Pepper"
+      ]
+    },
+    {
+      "id": "cookedroyalpepper-frying",
+      "name": "Cooked Royal Pepper",
+      "method": "Frying",
+      "ingredients": [
+        {
+          "name": "Royal Pepper",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cooked Royal Pepper",
+      "hunger": 14.0,
+      "thirst": 5.0,
+      "buffs": [
+        "Royal Radiance"
+      ],
+      "notes": "",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooked_Royal_Pepper",
+      "cookTime": null,
+      "aliases": [
+        "Royal Pepper",
+        "Cooked Royal Pepper"
+      ]
+    },
+    {
+      "id": "anteburger-prepared",
+      "name": "Anteburger",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Pest",
+          "count": 1,
+          "alternatives": [
+            "Cooked Pest",
+            "Cooked Pest Rump"
+          ]
+        },
+        {
+          "name": "Tomato",
+          "count": 1,
+          "alternatives": [
+            "Tomato",
+            "Super Tomato"
+          ]
+        },
+        {
+          "name": "Space Lettuce",
+          "count": 1
+        },
+        {
+          "name": "Bread",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Anteburger",
+      "hunger": 52.25,
+      "thirst": 19.8,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/anteburger/",
+      "cookTime": null,
+      "aliases": [
+        "Anteburger"
+      ]
+    },
+    {
+      "id": "antecheesesandwich-prepared",
+      "name": "Antecheese Sandwich",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Anteverse Cheese",
+          "count": 1
+        },
+        {
+          "name": "Bread",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Antecheese Sandwich",
+      "hunger": 24.75,
+      "thirst": 0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/antecheese-sandwich/",
+      "cookTime": null,
+      "aliases": [
+        "Antecheese Sandwich"
+      ]
+    },
+    {
+      "id": "antemaki-prepared",
+      "name": "Antemaki",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Antefish Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Roasted Nori Sheet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Antemaki",
+      "hunger": 50.05,
+      "thirst": 4.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/antemaki/",
+      "cookTime": null,
+      "aliases": [
+        "Antemaki"
+      ]
+    },
+    {
+      "id": "antepasta-preparation",
+      "name": "Antepasta",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Antepasta",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/antepasta/",
+      "cookTime": null,
+      "aliases": [
+        "Antepasta"
+      ]
+    },
+    {
+      "id": "atypicalbutter-preparation",
+      "name": "Atypical Butter",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Eel Fat",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Atypical Butter",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/atypical-butter/",
+      "cookTime": null,
+      "aliases": [
+        "Atypical Butter"
+      ]
+    },
+    {
+      "id": "butterypopcornkernels-preparation",
+      "name": "Buttery Popcorn Kernels",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Purified Corn",
+          "count": 1
+        },
+        {
+          "name": "Atypical Butter",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Buttery Popcorn Kernels",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/buttery-popcorn-kernels/",
+      "cookTime": null,
+      "aliases": [
+        "Buttery Popcorn Kernels"
+      ]
+    },
+    {
+      "id": "colorfulmakiplate-prepared",
+      "name": "Colorful Maki Plate",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Antefish Filet",
+          "count": 2,
+          "alternatives": [
+            "Raw Antefish Filet",
+            "Raw Portal Fish Filet",
+            "Raw Radfish Filet",
+            "Raw Moon Fish Filet",
+            "Raw Chordfish Filet",
+            "Raw Gutfish Eel Filet",
+            "Raw Inkfish Filet",
+            "Raw Darkwater Fish Filet"
+          ]
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Roasted Nori Sheet",
+          "count": 2
+        }
+      ],
+      "portions": 6,
+      "portionName": "Single Colorful Maki",
+      "hunger": 20.75,
+      "thirst": 1.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/colorful-maki-plate/",
+      "cookTime": null,
+      "aliases": [
+        "Colorful Maki Plate",
+        "Single Colorful Maki"
+      ]
+    },
+    {
+      "id": "cosmatosaladwrap-prepared",
+      "name": "Cosmato Salad Wrap",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Space Lettuce",
+          "count": 2
+        },
+        {
+          "name": "Tomato",
+          "count": 1,
+          "alternatives": [
+            "Tomato",
+            "Super Tomato"
+          ]
+        },
+        {
+          "name": "Greyeb",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Cosmato Salad Wrap",
+      "hunger": 51.7,
+      "thirst": 45.1,
+      "buffs": [
+        "Temptation of the Flesh"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/cosmato-salad-wrap/",
+      "cookTime": null,
+      "aliases": [
+        "Cosmato Salad Wrap"
+      ]
+    },
+    {
+      "id": "crunchycrystal-prepared",
+      "name": "Crunchy Crystal",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Gem Crab",
+          "count": 1
+        },
+        {
+          "name": "Honey",
+          "count": 3
+        }
+      ],
+      "portions": 3,
+      "portionName": "Crunchy Crystal",
+      "hunger": 26.0,
+      "thirst": 0.0,
+      "buffs": [
+        "Scintillating Skin"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/crunchy-crystal/",
+      "cookTime": null,
+      "aliases": [
+        "Crunchy Crystal"
+      ]
+    },
+    {
+      "id": "fogiriplatter-prepared",
+      "name": "Fogiri Platter",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Chordfish Filet",
+          "count": 2
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Fogiri",
+      "hunger": 10.0,
+      "thirst": 1.0,
+      "buffs": [
+        "Fog Caller"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/fogiri-platter/",
+      "cookTime": null,
+      "aliases": [
+        "Fogiri Platter",
+        "Fogiri"
+      ]
+    },
+    {
+      "id": "gooeytulipsalad-prepared",
+      "name": "Gooey Tulip Salad",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Gooey Meat Steak",
+          "count": 1
+        },
+        {
+          "name": "Glow Tulip",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Gooey Tulip Salad",
+      "hunger": 52.5,
+      "thirst": 11.0,
+      "buffs": [
+        "Glowing Gleaner"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/gooey-tulip-salad/",
+      "cookTime": null,
+      "aliases": [
+        "Gooey Tulip Salad"
+      ]
+    },
+    {
+      "id": "gutfishunagiplatter-prepared",
+      "name": "Gutfish Unagi Platter",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Gutfish Eel Filet",
+          "count": 2
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Gutfish Unagi",
+      "hunger": 12.5,
+      "thirst": 1.0,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/gutfish-unagi-platter/",
+      "cookTime": null,
+      "aliases": [
+        "Gutfish Unagi Platter",
+        "Gutfish Unagi"
+      ]
+    },
+    {
+      "id": "honeyappleicecream-prepared",
+      "name": "Honey Apple Ice Cream",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "Honey",
+          "count": 2
+        },
+        {
+          "name": "Apple",
+          "count": 2
+        }
+      ],
+      "portions": 1,
+      "portionName": "Honey Apple Ice Cream",
+      "hunger": 63.75,
+      "thirst": 17.6,
+      "buffs": [
+        "Brain Freeze"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/honey-apple-ice-cream/",
+      "cookTime": null,
+      "aliases": [
+        "Honey Apple Ice Cream"
+      ]
+    },
+    {
+      "id": "icecream-prepared",
+      "name": "Ice Cream",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 2
+        },
+        {
+          "name": "Gem Sugar",
+          "count": 2
+        }
+      ],
+      "portions": 2,
+      "portionName": "Ice Cream",
+      "hunger": 15.0,
+      "thirst": 10.0,
+      "buffs": [
+        "Brain Freeze"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/ice-cream/",
+      "cookTime": null,
+      "aliases": [
+        "Ice Cream"
+      ]
+    },
+    {
+      "id": "icebergiriplatter-prepared",
+      "name": "Icebergiri Platter",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Frigid Queenfish Filet",
+          "count": 2
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Icebergiri",
+      "hunger": 13.75,
+      "thirst": 1.0,
+      "buffs": [
+        "Frigid Queen's Favor"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/icebergiri-platter/",
+      "cookTime": null,
+      "aliases": [
+        "Icebergiri Platter",
+        "Icebergiri"
+      ]
+    },
+    {
+      "id": "mushycrabsushiplatter-prepared",
+      "name": "Mushy Crab Sushi Platter",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Gem Crab",
+          "count": 1,
+          "alternatives": [
+            "Gem Crab",
+            "Opal Crab"
+          ]
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Mushy Crab Sushi",
+      "hunger": 16.0,
+      "thirst": 2.25,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/mushy-crab-sushi-platter/",
+      "cookTime": null,
+      "aliases": [
+        "Mushy Crab Sushi Platter",
+        "Mushy Crab Sushi"
+      ]
+    },
+    {
+      "id": "penumbramakiplate-prepared",
+      "name": "Penumbra Maki Plate",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Penumbra Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 2
+        },
+        {
+          "name": "Roasted Nori Sheet",
+          "count": 3
+        }
+      ],
+      "portions": 6,
+      "portionName": "Single Penumbra Maki",
+      "hunger": 26.25,
+      "thirst": 0.9,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/penumbra-maki-plate/",
+      "cookTime": null,
+      "aliases": [
+        "Penumbra Maki Plate",
+        "Single Penumbra Maki"
+      ]
+    },
+    {
+      "id": "penumbranigiriplatter-prepared",
+      "name": "Penumbra Nigiri Platter",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Penumbra Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 2
+        }
+      ],
+      "portions": 6,
+      "portionName": "Penumbra Nigiri",
+      "hunger": 16.25,
+      "thirst": 1.8,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/penumbra-nigiri-platter/",
+      "cookTime": null,
+      "aliases": [
+        "Penumbra Nigiri Platter",
+        "Penumbra Nigiri"
+      ]
+    },
+    {
+      "id": "pltsandwich-prepared",
+      "name": "PLT Sandwich",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Peccary Chop",
+          "count": 1
+        },
+        {
+          "name": "Space Lettuce",
+          "count": 1
+        },
+        {
+          "name": "Tomato",
+          "count": 1,
+          "alternatives": [
+            "Tomato",
+            "Super Tomato"
+          ]
+        },
+        {
+          "name": "Bread",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "PLT Sandwich",
+      "hunger": 57.75,
+      "thirst": 19.8,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/plt-sandwich/",
+      "cookTime": null,
+      "aliases": [
+        "PLT Sandwich"
+      ]
+    },
+    {
+      "id": "pumpkinicecream-prepared",
+      "name": "Pumpkin Ice Cream",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Pumpkin Ice Cream",
+      "hunger": 43.75,
+      "thirst": 11.0,
+      "buffs": [
+        "Brain Freeze"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-ice-cream/",
+      "cookTime": null,
+      "aliases": [
+        "Pumpkin Ice Cream"
+      ]
+    },
+    {
+      "id": "radricebowl-prepared",
+      "name": "Rad Rice Bowl",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Radfish Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Cooked Fried \"Egg\"",
+          "count": 1
+        },
+        {
+          "name": "Roasted Nori Snack",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Rad Rice Bowl",
+      "hunger": 76.562,
+      "thirst": 4.0,
+      "buffs": [
+        "Rad Resistant"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/rad-rice-bowl/",
+      "cookTime": null,
+      "aliases": [
+        "Rad Rice Bowl"
+      ]
+    },
+    {
+      "id": "rawcarrotcake-preparation",
+      "name": "Raw \"Carrot\" Cake",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 2
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 6
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "\"Carrot\"",
+          "count": 4
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw \"Carrot\" Cake",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-carrot-cake/",
+      "cookTime": null,
+      "aliases": [
+        "Raw \"Carrot\" Cake",
+        "Raw Carrot Cake"
+      ]
+    },
+    {
+      "id": "rawcarrotfries-preparation",
+      "name": "Raw \"Carrot\" Fries",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Carrot\"",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw \"Carrot\" Fries",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-carrot-fries/",
+      "cookTime": null,
+      "aliases": [
+        "Raw \"Carrot\" Fries",
+        "Raw Carrot Fries"
+      ]
+    },
+    {
+      "id": "raweggpeccarytartine-preparation",
+      "name": "Raw \"Egg\" & Peccary Tartine",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Bread",
+          "count": 1
+        },
+        {
+          "name": "Tomato",
+          "count": 1,
+          "alternatives": [
+            "Tomato",
+            "Super Tomato"
+          ]
+        },
+        {
+          "name": "Raw Peccary Sausages",
+          "count": 1
+        },
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw \"Egg\" & Peccary Tartine",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-egg-peccary-tartine/",
+      "cookTime": null,
+      "aliases": [
+        "Raw \"Egg\" & Peccary Tartine",
+        "Raw Egg & Peccary Tartine"
+      ]
+    },
+    {
+      "id": "rawanniversarycake-preparation",
+      "name": "Raw Anniversary Cake",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 2
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 6
+        },
+        {
+          "name": "Slushie",
+          "count": 2
+        },
+        {
+          "name": "Apple",
+          "count": 6
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Anniversary Cake",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-anniversary-cake/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Anniversary Cake"
+      ]
+    },
+    {
+      "id": "rawapplepie-preparation",
+      "name": "Raw Apple Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Apple",
+          "count": 6
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Apple Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-apple-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Apple Pie"
+      ]
+    },
+    {
+      "id": "rawcarbunclecasserole-preparation",
+      "name": "Raw Carbuncle Casserole",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Carbuncle",
+          "count": 3
+        },
+        {
+          "name": "Potato",
+          "count": 2
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 2
+        },
+        {
+          "name": "Anteverse Cheese",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Carbuncle Casserole",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-carbuncle-casserole/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Carbuncle Casserole"
+      ]
+    },
+    {
+      "id": "rawcarbunclepizza-preparation",
+      "name": "Raw Carbuncle Pizza",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Carbuncle",
+          "count": 1
+        },
+        {
+          "name": "Tomato",
+          "count": 1,
+          "alternatives": [
+            "Tomato",
+            "Super Tomato"
+          ]
+        },
+        {
+          "name": "Anteverse Cheese",
+          "count": 1
+        },
+        {
+          "name": "Raw Dough",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Carbuncle Pizza",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-carbuncle-pizza/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Carbuncle Pizza"
+      ]
+    },
+    {
+      "id": "rawcreamyinkfish-preparation",
+      "name": "Raw Creamy Inkfish",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Inkfish Filet",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Creamy Inkfish",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-creamy-inkfish/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Creamy Inkfish"
+      ]
+    },
+    {
+      "id": "rawcreepymeatpie-preparation",
+      "name": "Raw Creepy Meat Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Greyeb",
+          "count": 2
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 2
+        },
+        {
+          "name": "Raw Pest",
+          "count": 2
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Creepy Meat Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-creepy-meat-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Creepy Meat Pie"
+      ]
+    },
+    {
+      "id": "rawcrumbeddarkwaterfish-preparation",
+      "name": "Raw Crumbed Darkwater Fish",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Darkwater Fish Filet",
+          "count": 1
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 6
+        },
+        {
+          "name": "Anteverse Cheese",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Crumbed Darkwater Fish",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-crumbed-darkwater-fish/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Crumbed Darkwater Fish"
+      ]
+    },
+    {
+      "id": "rawdough-preparation",
+      "name": "Raw Dough",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Anteverse Wheat",
+          "count": 2
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Dough",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-dough/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Dough"
+      ]
+    },
+    {
+      "id": "rawfreyedrice-preparation",
+      "name": "Raw Fr-eyed Rice",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        },
+        {
+          "name": "Greyeb",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Fr-eyed Rice",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-fr-eyed-rice/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Fr-eyed Rice"
+      ]
+    },
+    {
+      "id": "rawfries-preparation",
+      "name": "Raw Fries",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Potato",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Fries",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-fries/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Fries"
+      ]
+    },
+    {
+      "id": "rawglimmeringmeatsteak-preparation",
+      "name": "Raw Glimmering Meat Steak",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Larva Meat",
+          "count": 1
+        },
+        {
+          "name": "Gem Crab",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Glimmering Meat Steak",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-glimmering-meat-steak/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Glimmering Meat Steak"
+      ]
+    },
+    {
+      "id": "rawglowinggteau-preparation",
+      "name": "Raw Glowing G\u00e2teau",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 2
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 6
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Glowing G\u00e2teau",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-glowing-g-teau/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Glowing G\u00e2teau"
+      ]
+    },
+    {
+      "id": "rawgumdropcookietray-preparation",
+      "name": "Raw Gumdrop Cookie Tray",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 3
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "Jowlers",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Gumdrop Cookie Tray",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-gumdrop-cookie-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Gumdrop Cookie Tray"
+      ]
+    },
+    {
+      "id": "rawnorisheettray-preparation",
+      "name": "Raw Nori Sheet Tray",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Murkweed",
+          "count": 12
+        },
+        {
+          "name": "Fish Oil",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Nori Sheet Tray",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-nori-sheet-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Nori Sheet Tray"
+      ]
+    },
+    {
+      "id": "rawpeccarysausages-preparation",
+      "name": "Raw Peccary Sausages",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Peccary Chop",
+          "count": 2
+        },
+        {
+          "name": "Bio Scrap",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Peccary Sausages",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-peccary-sausages/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Peccary Sausages"
+      ]
+    },
+    {
+      "id": "rawpekkiebrekkiehash-preparation",
+      "name": "Raw Pekkie Brekkie Hash",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 3
+        },
+        {
+          "name": "Potato",
+          "count": 2
+        },
+        {
+          "name": "Anteverse Cheese",
+          "count": 2
+        },
+        {
+          "name": "Raw Peccary Sausages",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pekkie Brekkie Hash",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pekkie-brekkie-hash/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pekkie Brekkie Hash"
+      ]
+    },
+    {
+      "id": "rawpestpotpie-preparation",
+      "name": "Raw Pest Pot Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 2
+        },
+        {
+          "name": "Raw Pest Rump",
+          "count": 3
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pest Pot Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pest-pot-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pest Pot Pie"
+      ]
+    },
+    {
+      "id": "rawpestato-preparation",
+      "name": "Raw Pestato",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Pest Rump",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pestato",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pestato/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pestato"
+      ]
+    },
+    {
+      "id": "rawpumpkincookietray-preparation",
+      "name": "Raw Pumpkin Cookie Tray",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 3
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pumpkin Cookie Tray",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-cookie-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pumpkin Cookie Tray"
+      ]
+    },
+    {
+      "id": "rawpumpkindough-preparation",
+      "name": "Raw Pumpkin Dough",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Anteverse Wheat",
+          "count": 2
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pumpkin Dough",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-dough/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pumpkin Dough"
+      ]
+    },
+    {
+      "id": "rawpumpkinpie-preparation",
+      "name": "Raw Pumpkin Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "\"Egg\"",
+          "count": 2
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pumpkin Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pumpkin Pie"
+      ]
+    },
+    {
+      "id": "rawpumpkinslices-preparation",
+      "name": "Raw Pumpkin Slices",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Pumpkin",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Pumpkin Slices",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-slices/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Pumpkin Slices"
+      ]
+    },
+    {
+      "id": "rawsaltedhoneypie-preparation",
+      "name": "Raw Salted Honey Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Honey",
+          "count": 6
+        },
+        {
+          "name": "Salt",
+          "count": 2
+        },
+        {
+          "name": "\"Egg\"",
+          "count": 2
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Salted Honey Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-salted-honey-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Salted Honey Pie"
+      ]
+    },
+    {
+      "id": "rawshadowberrypie-preparation",
+      "name": "Raw Shadowberry Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Shadowberries",
+          "count": 6
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "\"Egg\"",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Shadowberry Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-shadowberry-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Shadowberry Pie"
+      ]
+    },
+    {
+      "id": "rawsilkyfishflorentine-preparation",
+      "name": "Raw Silky Fish Florentine",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Silken Betta Filet",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Space Lettuce",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Silky Fish Florentine",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-silky-fish-florentine/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Silky Fish Florentine"
+      ]
+    },
+    {
+      "id": "rawsimplepestpie-preparation",
+      "name": "Raw Simple Pest Pie",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Dough",
+          "count": 2
+        },
+        {
+          "name": "Raw Pest",
+          "count": 4
+        },
+        {
+          "name": "Raw Pest Rump",
+          "count": 2
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Simple Pest Pie",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-simple-pest-pie/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Simple Pest Pie"
+      ]
+    },
+    {
+      "id": "rawstuffedmushroomtray-preparation",
+      "name": "Raw Stuffed Mushroom Tray",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 6
+        },
+        {
+          "name": "Space Lettuce",
+          "count": 3
+        },
+        {
+          "name": "Anteverse Cheese",
+          "count": 2
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 3
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Stuffed Mushroom Tray",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-mushroom-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Stuffed Mushroom Tray"
+      ]
+    },
+    {
+      "id": "rawstuffedpepperstray-preparation",
+      "name": "Raw Stuffed Peppers Tray",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Royal Pepper",
+          "count": 3
+        },
+        {
+          "name": "Raw Larva Meat",
+          "count": 3
+        },
+        {
+          "name": "Anteverse Cheese",
+          "count": 2
+        },
+        {
+          "name": "Purified Corn",
+          "count": 2
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Stuffed Peppers Tray",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-peppers-tray/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Stuffed Peppers Tray"
+      ]
+    },
+    {
+      "id": "rawstuffedroastpeccary-preparation",
+      "name": "Raw Stuffed Roast Peccary",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Greyeb",
+          "count": 1
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Raw Stuffed Roast Peccary",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Preparation ingredient. Nutrition is shown on the finished dish; do not treat raw-dish stats as a cooked serving.",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-roast-peccary/",
+      "cookTime": null,
+      "aliases": [
+        "Raw Stuffed Roast Peccary"
+      ]
+    },
+    {
+      "id": "roastednorisnack-prepared",
+      "name": "Roasted Nori Snack",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Roasted Nori Sheet",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Roasted Nori Snack",
+      "hunger": 5.0,
+      "thirst": 0.0,
+      "buffs": [
+        "Fisherman's Snack"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/roasted-nori-snack/",
+      "cookTime": null,
+      "aliases": [
+        "Roasted Nori Snack"
+      ]
+    },
+    {
+      "id": "rootbearfloat-prepared",
+      "name": "Rootbear Float",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Rootbear",
+          "count": 1
+        },
+        {
+          "name": "Ice Cream",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Rootbear Float",
+      "hunger": 16.5,
+      "thirst": 38.5,
+      "buffs": [
+        "Sugar High",
+        "Brain Freeze"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/rootbear-float/",
+      "cookTime": null,
+      "aliases": [
+        "Rootbear Float"
+      ]
+    },
+    {
+      "id": "shadowberrymilkshake-prepared",
+      "name": "Shadowberry Milkshake",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "Shadowberries",
+          "count": 4
+        }
+      ],
+      "portions": 4,
+      "portionName": "Shadowberry Milkshake",
+      "hunger": 24.375,
+      "thirst": 11.55,
+      "buffs": [
+        "Brain Freeze"
+      ],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/shadowberry-milkshake/",
+      "cookTime": null,
+      "aliases": [
+        "Shadowberry Milkshake"
+      ]
+    },
+    {
+      "id": "silkytemaki-prepared",
+      "name": "Silky Temaki",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Raw Silken Betta Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Roasted Nori Sheet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Silky Temaki",
+      "hunger": 58.85,
+      "thirst": 4.4,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/silky-temaki/",
+      "cookTime": null,
+      "aliases": [
+        "Silky Temaki"
+      ]
+    },
+    {
+      "id": "unadonandegg-prepared",
+      "name": "Unadon and \"Egg\"",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Gutfish Eel Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Cooked Fried \"Egg\"",
+          "count": 1
+        },
+        {
+          "name": "Roasted Nori Snack",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Unadon and \"Egg\"",
+      "hunger": 73.438,
+      "thirst": 4.4,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/unadon-and-egg/",
+      "cookTime": null,
+      "aliases": [
+        "Unadon and \"Egg\"",
+        "Unadon and Egg"
+      ]
+    },
+    {
+      "id": "unagitemaki-prepared",
+      "name": "Unagi Temaki",
+      "method": "Prepared",
+      "ingredients": [
+        {
+          "name": "Cooked Gutfish Eel Filet",
+          "count": 1
+        },
+        {
+          "name": "Bowl of Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Roasted Nori Sheet",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Unagi Temaki",
+      "hunger": 57.75,
+      "thirst": 4.4,
+      "buffs": [],
+      "notes": "",
+      "source": "https://www.abioticdatabase.com/items/unagi-temaki/",
+      "cookTime": null,
+      "aliases": [
+        "Unagi Temaki"
+      ]
+    },
+    {
+      "id": "blandpeasoup-soup",
+      "name": "Bland Pea Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Bland Pea Soup",
+      "hunger": 12.5,
+      "thirst": 21.0,
+      "buffs": [
+        "Lightfooted"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Bland Pea Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "splitpeasoup-soup",
+      "name": "Split Pea Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        },
+        {
+          "name": "Raw Pest",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Split Pea Soup",
+      "hunger": 17.5,
+      "thirst": 21.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Split Pea Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "pestgoulash-soup",
+      "name": "Pest Goulash",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Pest",
+          "count": 1
+        },
+        {
+          "name": "Raw Pest Rump",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Pest Goulash",
+      "hunger": 14.375,
+      "thirst": 16.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Pest Goulash"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "meatystew-soup",
+      "name": "Meaty Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Peccary Chop",
+          "count": 1
+        },
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        },
+        {
+          "name": "Raw Pest Rump",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Meaty Stew",
+      "hunger": 26.25,
+      "thirst": 16.0,
+      "buffs": [
+        "Heightened Senses"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Meaty Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "simpletomatosoup-soup",
+      "name": "Simple Tomato Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Tomato",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Simple Tomato Soup",
+      "hunger": 12.5,
+      "thirst": 22.25,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Simple Tomato Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "supertomatosoup-soup",
+      "name": "Super Tomato Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Super Tomato",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Super Tomato Soup",
+      "hunger": 15.625,
+      "thirst": 22.25,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Super Tomato Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "creamytomatobisque-soup",
+      "name": "Creamy Tomato Bisque",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Super Tomato",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Creamy Tomato Bisque",
+      "hunger": 12.5,
+      "thirst": 37.875,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Creamy Tomato Bisque"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "veggiestew-soup",
+      "name": "Veggie Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 1
+        },
+        {
+          "name": "Super Tomato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Veggie Stew",
+      "hunger": 17.5,
+      "thirst": 24.125,
+      "buffs": [
+        "Living Off the Land"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Veggie Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "sustenancesoup-soup",
+      "name": "Sustenance Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Military M.R.E.",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Sustenance Soup",
+      "hunger": 18.75,
+      "thirst": 16.0,
+      "buffs": [
+        "Quick Reflexes"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Sustenance Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "sweetporridge-soup",
+      "name": "Sweet Porridge",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Melted Ice Cream",
+          "count": 1
+        },
+        {
+          "name": "Anteverse Wheat",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Sweet Porridge",
+      "hunger": 10.625,
+      "thirst": 24.125,
+      "buffs": [
+        "Sweet Tooth"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Sweet Porridge"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "sugaryslop-soup",
+      "name": "Sugary Slop",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Doznuts",
+          "count": 1
+        },
+        {
+          "name": "Jowlers",
+          "count": 1
+        },
+        {
+          "name": "Skip",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Sugary Slop",
+      "hunger": 18.75,
+      "thirst": 17.25,
+      "buffs": [
+        "Sugar High"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Sugary Slop"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "mashedpotatoes-soup",
+      "name": "Mashed Potatoes",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Mashed Potatoes",
+      "hunger": 8.125,
+      "thirst": 33.5,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Mashed Potatoes"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "potatoandsausagestew-soup",
+      "name": "Potato and Sausage Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Peccary Sausages",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Potato and Sausage Stew",
+      "hunger": 20.0,
+      "thirst": 17.875,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Potato and Sausage Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "heartystew-soup",
+      "name": "Hearty Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Exor Heart",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Super Tomato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Hearty Stew",
+      "hunger": 23.75,
+      "thirst": 23.5,
+      "buffs": [
+        "Bodacious"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Hearty Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "balancedstew-soup",
+      "name": "Balanced Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Carbuncle",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Balanced Stew",
+      "hunger": 13.125,
+      "thirst": 17.25,
+      "buffs": [
+        "Big Brain"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Balanced Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "peccarystew-soup",
+      "name": "Peccary Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Peccary Chop",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Super Tomato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Peccary Stew",
+      "hunger": 21.875,
+      "thirst": 23.5,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Peccary Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "almegastew-soup",
+      "name": "A&L Mega-Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Exor Arm",
+          "count": 1
+        },
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        },
+        {
+          "name": "Raw Exor Heart",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "A&L Mega-Stew",
+      "hunger": 37.5,
+      "thirst": 16.0,
+      "buffs": [
+        "Mega-Ante"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "A&L Mega-Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "greyebchowder-soup",
+      "name": "Greyeb Chowder",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Greyeb",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Greyeb Chowder",
+      "hunger": 12.5,
+      "thirst": 42.875,
+      "buffs": [
+        "Desire of the Flesh"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Greyeb Chowder"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "carbunclendumplings-soup",
+      "name": "Carbuncle N' Dumplings",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Dough",
+          "count": 1
+        },
+        {
+          "name": "Raw Carbuncle",
+          "count": 1
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Carbuncle N' Dumplings",
+      "hunger": 23.75,
+      "thirst": 21.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Carbuncle N' Dumplings"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "homeypasta-soup",
+      "name": "Homey Pasta",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Antepasta",
+          "count": 1
+        },
+        {
+          "name": "Raw Peccary Sausages",
+          "count": 1
+        },
+        {
+          "name": "Tomato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Homey Pasta",
+      "hunger": 36.0,
+      "thirst": 31.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Homey Pasta"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "peccarynoodlesoup-soup",
+      "name": "Peccary Noodle Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Antepasta",
+          "count": 1
+        },
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Peccary Noodle Soup",
+      "hunger": 34.0,
+      "thirst": 28.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Peccary Noodle Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "portalfishstew-soup",
+      "name": "Portal Fish Stew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Portal Fish Filet",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        },
+        {
+          "name": "Tomato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Portal Fish Stew",
+      "hunger": 21.875,
+      "thirst": 24.125,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Portal Fish Stew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "radfishchowder-soup",
+      "name": "Radfish Chowder",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Radfish Filet",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        },
+        {
+          "name": "Canned Peas",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Radfish Chowder",
+      "hunger": 23.125,
+      "thirst": 22.875,
+      "buffs": [
+        "Rad Resistant",
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Radfish Chowder"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "lunarbisque-soup",
+      "name": "Lunar Bisque",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Moon Fish Filet",
+          "count": 1
+        },
+        {
+          "name": "Raw Exor Heart",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Lunar Bisque",
+      "hunger": 23.125,
+      "thirst": 17.25,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Lunar Bisque"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "inkyeggdropsoup-soup",
+      "name": "Inky \"Egg\" Drop Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Inkfish Filet",
+          "count": 1
+        },
+        {
+          "name": "Egg",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Inky \"Egg\" Drop Soup",
+      "hunger": 23.125,
+      "thirst": 22.25,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Inky \"Egg\" Drop Soup",
+        "Inky Egg Drop Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "anteversegumbo-soup",
+      "name": "Anteverse Gumbo",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Antefish Filet",
+          "count": 1
+        },
+        {
+          "name": "Raw Peccary Sausages",
+          "count": 1
+        },
+        {
+          "name": "Potato",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Anteverse Gumbo",
+      "hunger": 25.0,
+      "thirst": 17.875,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Anteverse Gumbo"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "harmoniousrice-soup",
+      "name": "Harmonious Rice",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Chordfish Filet",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Xanterium Rice",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Harmonious Rice",
+      "hunger": 25.0,
+      "thirst": 31.625,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Harmonious Rice"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "reservoirreserve-soup",
+      "name": "Reservoir Reserve",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Darkwater Fish Filet",
+          "count": 1
+        },
+        {
+          "name": "Murkweed",
+          "count": 1
+        },
+        {
+          "name": "Greyeb",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Reservoir Reserve",
+      "hunger": 21.875,
+      "thirst": 25.375,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Reservoir Reserve"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "peccarygoulash-soup",
+      "name": "Peccary Goulash",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Peccary Chop",
+          "count": 1
+        },
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Peccary Goulash",
+      "hunger": 23.125,
+      "thirst": 16.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Peccary Goulash"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "meatriomedley-soup",
+      "name": "Meatrio Medley",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Carbuncle",
+          "count": 1
+        },
+        {
+          "name": "Raw Pest Rump",
+          "count": 1
+        },
+        {
+          "name": "Raw Alien Drumstick",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Meatrio Medley",
+      "hunger": 23.75,
+      "thirst": 16.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Meatrio Medley"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "pumpkinsoup-soup",
+      "name": "Pumpkin Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Pumpkin Soup",
+      "hunger": 21.875,
+      "thirst": 25.375,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Pumpkin Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "glacialgazpacho-soup",
+      "name": "Glacial Gazpacho",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Frigid Queenfish Filet",
+          "count": 1
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        },
+        {
+          "name": "Greyeb",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Glacial Gazpacho",
+      "hunger": 30.94,
+      "thirst": 25.375,
+      "buffs": [
+        "Brain Freeze"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Glacial Gazpacho"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "creamycornsoup-soup",
+      "name": "Creamy Corn Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Purified Corn",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Creamy Corn Soup",
+      "hunger": 32.5,
+      "thirst": 27.875,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Creamy Corn Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "gooeymushroomsoup-soup",
+      "name": "Gooey Mushroom Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Larva Meat",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Gooey Mushroom Soup",
+      "hunger": 31.25,
+      "thirst": 17.25,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Gooey Mushroom Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "witchinghourbrew-soup",
+      "name": "Witching Hour Brew",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Penumbra Filet",
+          "count": 1
+        },
+        {
+          "name": "Glow Eye",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Witching Hour Brew",
+      "hunger": 42.5,
+      "thirst": 17.25,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Witching Hour Brew"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "silkyconsomm-soup",
+      "name": "Silky Consomm\u00e9",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw Silken Betta Filet",
+          "count": 1
+        },
+        {
+          "name": "Egg",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Silky Consomm\u00e9",
+      "hunger": 38.125,
+      "thirst": 21.0,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Silky Consomm\u00e9"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "carrotpumpkinsoup-soup",
+      "name": "\"Carrot\" & Pumpkin Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        },
+        {
+          "name": "Carrot",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "\"Carrot\" & Pumpkin Soup",
+      "hunger": 26.25,
+      "thirst": 25.375,
+      "buffs": [
+        "Souper Satisfied"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "\"Carrot\" & Pumpkin Soup",
+        "Carrot & Pumpkin Soup"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "spicyroyalbisque-soup",
+      "name": "Spicy Royal Bisque",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Royal Pepper",
+          "count": 1
+        },
+        {
+          "name": "Purified Corn",
+          "count": 1
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        }
+      ],
+      "portions": 8,
+      "portionName": "Spicy Royal Bisque",
+      "hunger": 22.5,
+      "thirst": 31.0,
+      "buffs": [
+        "Too Hot to Handle"
+      ],
+      "notes": "One pot fills 4 soup bowls; each full bowl is 2 consumable servings. Totals use 8 servings. Base yield, before Serving Seconds.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Spicy Royal Bisque"
+      ],
+      "bowlFills": 4
+    },
+    {
+      "id": "potofxanteriumrice-potmeals",
+      "name": "Pot of Xanterium Rice",
+      "method": "Pot meals",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Xanterium Rice",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Bowl of Xanterium Rice",
+      "hunger": 20.0,
+      "thirst": 4.0,
+      "buffs": [],
+      "notes": "Produces 4 individual bowl items (not the refillable, two-serving Soup Bowl).",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Pot of Xanterium Rice",
+        "Bowl of Xanterium Rice"
+      ]
+    },
+    {
+      "id": "risotto98-potmeals",
+      "name": "Risotto 98",
+      "method": "Pot meals",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Raw IS-0098 Tentacles",
+          "count": 1
+        },
+        {
+          "name": "Xanterium Rice",
+          "count": 1
+        },
+        {
+          "name": "Carbuncle Mushroom",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Bowl of Risotto 98",
+      "hunger": 37.625,
+      "thirst": 16.0,
+      "buffs": [
+        "Toasty Tummy"
+      ],
+      "notes": "Produces 4 individual bowl items (not the refillable, two-serving Soup Bowl).",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Risotto 98",
+        "Bowl of Risotto 98"
+      ]
+    },
+    {
+      "id": "pumpkinravioli-potmeals",
+      "name": "Pumpkin Ravioli",
+      "method": "Pot meals",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Pumpkin",
+          "count": 1
+        },
+        {
+          "name": "Raw Pumpkin Dough",
+          "count": 1
+        },
+        {
+          "name": "Salt",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Bowl of Pumpkin Ravioli",
+      "hunger": 39.0625,
+      "thirst": 35.5312,
+      "buffs": [],
+      "notes": "Produces 4 individual bowl items (not the refillable, two-serving Soup Bowl).",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Pumpkin Ravioli",
+        "Bowl of Pumpkin Ravioli"
+      ]
+    },
+    {
+      "id": "aliencheesecurds-potutility",
+      "name": "Alien Cheese Curds",
+      "method": "Pot utility",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Vial of Milk",
+          "count": 1
+        },
+        {
+          "name": "Hydrochloric Acid",
+          "count": 1
+        },
+        {
+          "name": "Anteverse Gel",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Ripening Alien Cheese Wheel",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Non-food output. Nutrition does not apply.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Alien Cheese Curds",
+        "Ripening Alien Cheese Wheel"
+      ]
+    },
+    {
+      "id": "gluesoup-potutility",
+      "name": "Glue (Soup)",
+      "method": "Pot utility",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Peccary Skull",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Giga Glue",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Non-food output. Nutrition does not apply.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:40",
+      "aliases": [
+        "Glue (Soup)",
+        "Giga Glue"
+      ]
+    },
+    {
+      "id": "fishermansgluesoup-potutility",
+      "name": "Fisherman's Glue (Soup)",
+      "method": "Pot utility",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Hydrochloric Acid",
+          "count": 1
+        },
+        {
+          "name": "Fish Bones",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Fisherman's Glue",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Non-food output. Nutrition does not apply.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:40",
+      "aliases": [
+        "Fisherman's Glue (Soup)",
+        "Fisherman's Glue"
+      ]
+    },
+    {
+      "id": "soldersoup-potutility",
+      "name": "Solder (Soup)",
+      "method": "Pot utility",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Silver Scrap",
+          "count": 1
+        },
+        {
+          "name": "Metal Scrap",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Solder (Material)",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Non-food output. Nutrition does not apply.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "5:50",
+      "aliases": [
+        "Solder (Soup)",
+        "Solder (Material)"
+      ]
+    },
+    {
+      "id": "badsoup-soup",
+      "name": "Bad Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Invalid ingredient combination",
+          "count": 1
+        }
+      ],
+      "portions": 4,
+      "portionName": "Bad Soup",
+      "hunger": 15.0,
+      "thirst": 16.0,
+      "buffs": [
+        "Borborygmus"
+      ],
+      "notes": "Failure result for a mixture that does not match a valid recipe. Reference table lists 2 bowl fills (4 drinks); its item page lists 4 fills. Default follows the Cooking table\u2014edit yield if your game differs.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Bad Soup"
+      ],
+      "bowlFills": 2,
+      "failure": true
+    },
+    {
+      "id": "poopsoup-soup",
+      "name": "Poop Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Bag of Feces",
+          "count": 1,
+          "alternatives": [
+            "Bag of Feces"
+          ]
+        }
+      ],
+      "portions": 8,
+      "portionName": "Poop Soup",
+      "hunger": 3.0,
+      "thirst": 20.0,
+      "buffs": [
+        "Stinky",
+        "Sick"
+      ],
+      "notes": "Failed / harmful soup. Any ONE listed harmful ingredient can trigger this result; alternatives are not a combined recipe.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "1:00",
+      "aliases": [
+        "Poop Soup"
+      ],
+      "bowlFills": 4,
+      "failure": true
+    },
+    {
+      "id": "toxicsoup-soup",
+      "name": "Toxic Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Rotten Food",
+          "count": 1,
+          "alternatives": [
+            "Rotten Food",
+            "Plastic Scrap",
+            "Giga Glue",
+            "Bag of Feces",
+            "Human Brain",
+            "Human Arm (Military)",
+            "Exor Arm",
+            "Vibrant Exor Arm",
+            "Corrupted Corn",
+            "Rotten Fish"
+          ]
+        }
+      ],
+      "portions": 8,
+      "portionName": "Toxic Soup",
+      "hunger": 15.0,
+      "thirst": 20.0,
+      "buffs": [
+        "Sick"
+      ],
+      "notes": "Failed / harmful soup. Any ONE listed harmful ingredient can trigger this result; alternatives are not a combined recipe.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Toxic Soup"
+      ],
+      "bowlFills": 4,
+      "failure": true
+    },
+    {
+      "id": "killersoup-soup",
+      "name": "Killer Soup",
+      "method": "Soup",
+      "ingredients": [
+        {
+          "name": "Water",
+          "count": 1000,
+          "unit": "ml"
+        },
+        {
+          "name": "Glass Scrap",
+          "count": 1,
+          "alternatives": [
+            "Glass Scrap",
+            "Tech Scrap",
+            "Metal Scrap",
+            "Silver Scrap",
+            "9mm Ammo",
+            ".357 Magnum Ammo",
+            "12g Buckshot",
+            ".308 Ammo",
+            "5.56 Ammo",
+            "Leyak Essence",
+            "The Bad Soda"
+          ]
+        }
+      ],
+      "portions": 8,
+      "portionName": "Killer Soup",
+      "hunger": 15.0,
+      "thirst": 20.0,
+      "buffs": [
+        "Death"
+      ],
+      "notes": "Failed / harmful soup. Any ONE listed harmful ingredient can trigger this result; alternatives are not a combined recipe.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Cooking",
+      "cookTime": "2:00",
+      "aliases": [
+        "Killer Soup"
+      ],
+      "bowlFills": 4,
+      "failure": true
+    },
+    {
+      "id": "aliencheesewheel-ripening",
+      "name": "Alien Cheese Wheel",
+      "method": "Ripening",
+      "ingredients": [
+        {
+          "name": "Ripening Alien Cheese Wheel",
+          "count": 1
+        }
+      ],
+      "portions": 6,
+      "portionName": "Anteverse Cheese",
+      "hunger": 10.0,
+      "thirst": 0.0,
+      "buffs": [],
+      "notes": "Let a Ripening Alien Cheese Wheel finish ripening, then place it and take 6 pieces of cheese. No heat required.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Alien_Cheese_Wheel",
+      "cookTime": null,
+      "aliases": [
+        "Alien Cheese Wheel",
+        "Anteverse Cheese"
+      ]
+    },
+    {
+      "id": "vialofmilk-preparation",
+      "name": "Vial of Milk",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Milk Sac",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Vial of Milk",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Distill one Milk Sac at the Distillation Bench.",
+      "source": "https://www.abioticdatabase.com/blog/abiotic-factor-distillation-guide/",
+      "cookTime": null,
+      "aliases": []
+    },
+    {
+      "id": "meltedicecream-preparation",
+      "name": "Melted Ice Cream",
+      "method": "Preparation",
+      "ingredients": [
+        {
+          "name": "Ice Cream",
+          "count": 1
+        }
+      ],
+      "portions": 1,
+      "portionName": "Melted Ice Cream",
+      "hunger": null,
+      "thirst": null,
+      "buffs": [],
+      "notes": "Allow Ice Cream to melt. This is a spoilage transformation, not a stove recipe.",
+      "source": "https://abioticfactor.wiki.gg/wiki/Melted_Ice_Cream",
+      "cookTime": null,
+      "aliases": []
+    }
+  ],
+  "buffs": {
+    "Big Brain": {
+      "description": "+10% Crafting and Construction XP gain",
+      "categories": [
+        "XP"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Bodacious": {
+      "description": "+25% max carry weight",
+      "categories": [
+        "Survival"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Borborygmus": {
+      "description": "A second trigger while active causes sickness.",
+      "categories": [
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Brain Freeze": {
+      "description": "+1 heat resistance",
+      "categories": [
+        "Temperature"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Carbun Copy": {
+      "description": "Carbuncles ignore the player",
+      "categories": [
+        "Stealth"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Death": {
+      "description": "Death on expiration",
+      "categories": [
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Desire of the Flesh": {
+      "description": "Reduces incoming damage by 15%, but attracts the Leyak more frequently.",
+      "categories": [
+        "Combat",
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Don't Pester Me": {
+      "description": "Pests ignore the player",
+      "categories": [
+        "Stealth"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Energy Boost": {
+      "description": "+300% stamina regen rate",
+      "categories": [
+        "Stamina"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Fish Out of Water": {
+      "description": "+50% swimming speed",
+      "categories": [
+        "Movement"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Fisherman's Snack": {
+      "description": "+5% Fishing XP gain",
+      "categories": [
+        "XP",
+        "Fishing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Flesh Ritual": {
+      "description": "Summons the Leyak",
+      "categories": [
+        "Utility",
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Fog Caller": {
+      "description": "50% chance of summoning a Fog Phenomenon weather event",
+      "categories": [
+        "Utility"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Frigid Queen's Favor": {
+      "description": "+2 heat resistance",
+      "categories": [
+        "Temperature"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Glowing Gleaner": {
+      "description": "+5% fish butcher/salvage chance",
+      "categories": [
+        "Fishing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Gourd Body": {
+      "description": "Reduces incoming damage by 25%; reduces movement speed (the reference lists \u221210, without an explicit unit).",
+      "categories": [
+        "Combat",
+        "Movement",
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Gourd Skin": {
+      "description": "+10% damage reduction",
+      "categories": [
+        "Combat"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Grainy Vision": {
+      "description": "Enhanced underwater visibility",
+      "categories": [
+        "Utility"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Healthy-Ish Bite": {
+      "description": "Rapid healing, up to 180 health over the effect.",
+      "categories": [
+        "Healing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Hearty Bite": {
+      "description": "+20% max limb health",
+      "categories": [
+        "Combat"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Heightened Senses": {
+      "description": "+10% Blunt Melee and Sharp Melee XP gain",
+      "categories": [
+        "XP"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Honey Sealed": {
+      "description": "Removes Bleeding and Severe Bleeding",
+      "categories": [
+        "Healing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Lightfooted": {
+      "description": "+10% Sprinting and Sneaking XP gain",
+      "categories": [
+        "XP"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Living Off the Land": {
+      "description": "+10% Agriculture XP gain",
+      "categories": [
+        "XP"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Medi-Shroom": {
+      "description": "+1 health per second",
+      "categories": [
+        "Healing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Mega-Ante": {
+      "description": "+10% movement speed +2 Strength",
+      "categories": [
+        "Movement"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Primal Power": {
+      "description": "+2 Sharp Melee, Blunt Melee, Throwing",
+      "categories": [
+        "Combat"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Quick Reflexes": {
+      "description": "+10% Accuracy and Reloading XP gain",
+      "categories": [
+        "XP"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Rad Resistant": {
+      "description": "-50% radiation absorption",
+      "categories": [
+        "Survival"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Restoring Bite": {
+      "description": "Rapid healing, up to 120 health over the effect.",
+      "categories": [
+        "Healing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Royal Presence": {
+      "description": "+10% damage bonus for the player and grants Royal Inspiration to nearby allies",
+      "categories": [
+        "Combat"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Royal Radiance": {
+      "description": "+1 cold resistance for the player and grants Royal Basking to nearby allies",
+      "categories": [
+        "Temperature"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Scintillating Skin": {
+      "description": "+3 armor per limb",
+      "categories": [
+        "Combat"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Sedentary Lifestyle": {
+      "description": "+10% Agriculture, Construction, Cooking, and Crafting XP gain",
+      "categories": [
+        "XP"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Shady Business": {
+      "description": "+4 Sneaking",
+      "categories": [
+        "Stealth"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Sick": {
+      "description": "Vomiting drains hunger and thirst. Clears after two vomiting episodes.",
+      "categories": [
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Slice of Home": {
+      "description": "+1 health per second",
+      "categories": [
+        "Healing"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Souper Satisfied": {
+      "description": "Hunger and thirst drain 20% more slowly.",
+      "categories": [
+        "Survival"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Stinky": {
+      "description": "Makes enemies more alert to your presence.",
+      "categories": [
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Sugar High": {
+      "description": "Stamina drains 25% more slowly; fatigue drains 10% faster and continence drains 25% faster.",
+      "categories": [
+        "Stamina",
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Sweet Tooth": {
+      "description": "Snacks and soda restore 25% more hunger and thirst; sweets restore 50% more.",
+      "categories": [
+        "Survival"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Temptation of the Flesh": {
+      "description": "Reduces incoming damage by 5%, but attracts the Leyak more frequently.",
+      "categories": [
+        "Combat",
+        "Drawbacks"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Toasty Tummy": {
+      "description": "+1 cold resistance",
+      "categories": [
+        "Temperature"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Too Hot to Handle": {
+      "description": "Emit a burst of fire when attacked",
+      "categories": [
+        "Combat"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Very Hearty Bite": {
+      "description": "+30% max limb health; +25 max stamina",
+      "categories": [
+        "Combat",
+        "Stamina"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    },
+    "Wahoo!": {
+      "description": "+20% jump height",
+      "categories": [
+        "Movement"
+      ],
+      "source": "https://abioticfactor.wiki.gg/wiki/Buffs_and_Debuffs"
+    }
+  },
+  "items": {
+    "\"Carrot\"": {
+      "icon": "icons/bde505bc18d9b1.webp",
+      "source": "https://www.abioticdatabase.com/items/carrot/"
+    },
+    "\"Carrot\" & Pumpkin Soup": {
+      "icon": "icons/c654e40fe0a193.webp",
+      "source": "https://www.abioticdatabase.com/items/carrot-pumpkin-soup/"
+    },
+    "\"Carrot\" Cake": {
+      "icon": "icons/4c3c9b425303b4.webp",
+      "source": "https://www.abioticdatabase.com/items/carrot-cake/"
+    },
+    "\"Egg\"": {
+      "icon": "icons/9c5587457e7013.webp",
+      "source": "https://www.abioticdatabase.com/items/egg/"
+    },
+    ".308 Ammo": {
+      "icon": "icons/ac84b5d0bc0652.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/.308_Ammo"
+    },
+    ".357 Magnum Ammo": {
+      "icon": "icons/e3fdc4b2afb3af.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/.357_Magnum_Ammo"
+    },
+    "12g Buckshot": {
+      "icon": "icons/1dac4f217068ee.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/12g_Buckshot"
+    },
+    "5.56 Ammo": {
+      "icon": "icons/9758feb2e27e2f.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/5.56_Ammo"
+    },
+    "9mm Ammo": {
+      "icon": "icons/369db97b70e04f.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/9mm_Ammo"
+    },
+    "A&L Mega-Stew": {
+      "icon": "icons/87928d84d1f62b.webp",
+      "source": "https://www.abioticdatabase.com/items/a-l-mega-stew/"
+    },
+    "Alien Cheese Curds": {
+      "icon": "icons/c05b859ed0a860.webp",
+      "source": "https://www.abioticdatabase.com/items/alien-cheese-curds/"
+    },
+    "Alien Cheese Wheel": {
+      "icon": "icons/551448ec281abf.webp",
+      "source": "https://www.abioticdatabase.com/items/alien-cheese-wheel/"
+    },
+    "Anniversary Cake": {
+      "icon": "icons/a5635498016149.webp",
+      "source": "https://www.abioticdatabase.com/items/anniversary-cake/"
+    },
+    "Anteburger": {
+      "icon": "icons/42e8c0dd7bdcc4.webp",
+      "source": "https://www.abioticdatabase.com/items/anteburger/"
+    },
+    "Antecheese Sandwich": {
+      "icon": "icons/74b3d30821d7c6.webp",
+      "source": "https://www.abioticdatabase.com/items/antecheese-sandwich/"
+    },
+    "Antecheese Toastie": {
+      "icon": "icons/a3177e8b9db23c.webp",
+      "source": "https://www.abioticdatabase.com/items/antecheese-toastie/"
+    },
+    "Antemaki": {
+      "icon": "icons/e07c37d79f0946.webp",
+      "source": "https://www.abioticdatabase.com/items/antemaki/"
+    },
+    "Antepasta": {
+      "icon": "icons/5b212f999292d5.webp",
+      "source": "https://www.abioticdatabase.com/items/antepasta/"
+    },
+    "Anteverse Cheese": {
+      "icon": "icons/f015a25c217fd6.webp",
+      "source": "https://www.abioticdatabase.com/items/anteverse-cheese/"
+    },
+    "Anteverse Gel": {
+      "icon": "icons/60283b5dd8dbc1.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Anteverse_Gel"
+    },
+    "Anteverse Gumbo": {
+      "icon": "icons/27a395cd2bae2e.webp",
+      "source": "https://www.abioticdatabase.com/items/anteverse-gumbo/"
+    },
+    "Anteverse Wheat": {
+      "icon": "icons/e18436e9b6f42f.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Anteverse_Wheat"
+    },
+    "Apple": {
+      "icon": "icons/476432a3e85a0a.webp",
+      "source": "https://www.abioticdatabase.com/items/apple/"
+    },
+    "Atypical Butter": {
+      "icon": "icons/d541d8591bf0af.webp",
+      "source": "https://www.abioticdatabase.com/items/atypical-butter/"
+    },
+    "Bad Soup": {
+      "icon": "icons/28cebdc3dc3c21.webp",
+      "source": "https://www.abioticdatabase.com/items/bad-soup/"
+    },
+    "Bag of Feces": {
+      "icon": "icons/db71865be5b38c.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Bag_of_Feces"
+    },
+    "Baked Apple Pie": {
+      "icon": "icons/640c695244afce.webp",
+      "source": "https://www.abioticdatabase.com/items/baked-apple-pie/"
+    },
+    "Baked Pumpkin Pie": {
+      "icon": "icons/43a7340cbb7734.webp",
+      "source": "https://www.abioticdatabase.com/items/baked-pumpkin-pie/"
+    },
+    "Baked Salted Honey Pie": {
+      "icon": "icons/621130624c62dc.webp",
+      "source": "https://www.abioticdatabase.com/items/baked-salted-honey-pie/"
+    },
+    "Baked Shadowberry Pie": {
+      "icon": "icons/1f08eccd635677.webp",
+      "source": "https://www.abioticdatabase.com/items/baked-shadowberry-pie/"
+    },
+    "Baked Simple Pest Pie": {
+      "icon": "icons/bc042f7fe69f37.webp",
+      "source": "https://www.abioticdatabase.com/items/baked-simple-pest-pie/"
+    },
+    "Balanced Stew": {
+      "icon": "icons/6e0e2836764c8d.webp",
+      "source": "https://www.abioticdatabase.com/items/balanced-stew/"
+    },
+    "Bio Scrap": {
+      "icon": "icons/217a1459b87958.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Bio_Scrap"
+    },
+    "Bland Pea Soup": {
+      "icon": "icons/d851a084736f79.webp",
+      "source": "https://www.abioticdatabase.com/items/bland-pea-soup/"
+    },
+    "Bowl of Pumpkin Ravioli": {
+      "icon": "icons/f1e6c03cd43293.webp",
+      "source": "https://www.abioticdatabase.com/items/bowl-of-pumpkin-ravioli/"
+    },
+    "Bowl of Risotto 98": {
+      "icon": "icons/ef44c0c1842ab1.webp",
+      "source": "https://www.abioticdatabase.com/items/bowl-of-risotto-98/"
+    },
+    "Bowl of Xanterium Rice": {
+      "icon": "icons/e8be6fe90c543f.webp",
+      "source": "https://www.abioticdatabase.com/items/bowl-of-xanterium-rice/"
+    },
+    "Bread": {
+      "icon": "icons/c61eb5df5d7852.webp",
+      "source": "https://www.abioticdatabase.com/items/bread/"
+    },
+    "Buttery Popcorn Kernels": {
+      "icon": "icons/0ed04f58506b9f.webp",
+      "source": "https://www.abioticdatabase.com/items/buttery-popcorn-kernels/"
+    },
+    "Canned Peas": {
+      "icon": "icons/f1b24fc8be0e41.webp",
+      "source": "https://www.abioticdatabase.com/items/canned-peas/"
+    },
+    "Carbuncle Casserole": {
+      "icon": "icons/fa27e50513752d.webp",
+      "source": "https://www.abioticdatabase.com/items/carbuncle-casserole/"
+    },
+    "Carbuncle Mushroom": {
+      "icon": "icons/7fcdd9c5ca062d.webp",
+      "source": "https://www.abioticdatabase.com/items/carbuncle-mushroom/"
+    },
+    "Carbuncle N' Dumplings": {
+      "icon": "icons/d452a322f50609.webp",
+      "source": "https://www.abioticdatabase.com/items/carbuncle-n-dumplings/"
+    },
+    "Carbuncle Pizza": {
+      "icon": "icons/bcedb29a2eadfe.webp",
+      "source": "https://www.abioticdatabase.com/items/carbuncle-pizza/"
+    },
+    "Carrot": {
+      "icon": "icons/617fec0ebd8f2f.webp",
+      "source": "https://www.abioticdatabase.com/items/carrot/"
+    },
+    "Colorful Maki Plate": {
+      "icon": "icons/bcb2cfb30680a1.webp",
+      "source": "https://www.abioticdatabase.com/items/colorful-maki-plate/"
+    },
+    "Cooked \"Carrot\" Fries": {
+      "icon": "icons/15e78c2f080d01.webp",
+      "source": "https://www.abioticdatabase.com/items/carrot-fries/"
+    },
+    "Cooked \"Egg\" & Peccary Tartine": {
+      "icon": "icons/1e625573c8ce38.webp",
+      "source": "https://www.abioticdatabase.com/items/egg-peccary-tartine/"
+    },
+    "Cooked Alien Drumstick": {
+      "icon": "icons/24b015c690d4da.webp",
+      "source": "https://www.abioticdatabase.com/items/alien-drumstick/"
+    },
+    "Cooked Antefish Filet": {
+      "icon": "icons/fb49979c306a3a.webp",
+      "source": "https://www.abioticdatabase.com/items/antefish-filet/"
+    },
+    "Cooked Baked Potato": {
+      "icon": "icons/838c879db97c2f.webp",
+      "source": "https://www.abioticdatabase.com/items/baked-potato/"
+    },
+    "Cooked Buttery Popcorn": {
+      "icon": "icons/e97e423a8ae048.webp",
+      "source": "https://www.abioticdatabase.com/items/buttery-popcorn/"
+    },
+    "Cooked Carbuncle": {
+      "icon": "icons/cc1de391414d7b.webp",
+      "source": "https://www.abioticdatabase.com/items/carbuncle/"
+    },
+    "Cooked Chordfish Filet": {
+      "icon": "icons/2b99e55a853c34.webp",
+      "source": "https://www.abioticdatabase.com/items/chordfish-filet/"
+    },
+    "Cooked Creamy Inkfish": {
+      "icon": "icons/6711e40d3d9bb7.webp",
+      "source": "https://www.abioticdatabase.com/items/creamy-inkfish/"
+    },
+    "Cooked Darkwater Fish Filet": {
+      "icon": "icons/8c88cd82a1dfc7.webp",
+      "source": "https://www.abioticdatabase.com/items/darkwater-fish-filet/"
+    },
+    "Cooked Exor Heart": {
+      "icon": "icons/22d8e913e15750.webp",
+      "source": "https://www.abioticdatabase.com/items/exor-heart/"
+    },
+    "Cooked Fr-eyed Rice": {
+      "icon": "icons/ded9a766221fde.webp",
+      "source": "https://www.abioticdatabase.com/items/fr-eyed-rice/"
+    },
+    "Cooked Fried \"Egg\"": {
+      "icon": "icons/2d2a055ddbe0b1.webp",
+      "source": "https://www.abioticdatabase.com/items/fried-egg/"
+    },
+    "Cooked Fries": {
+      "icon": "icons/4d868933f884ec.webp",
+      "source": "https://www.abioticdatabase.com/items/fries/"
+    },
+    "Cooked Frigid Queenfish Filet": {
+      "icon": "icons/1e4ec721d558f8.webp",
+      "source": "https://www.abioticdatabase.com/items/frigid-queenfish-filet/"
+    },
+    "Cooked Glimmering Meat Steak": {
+      "icon": "icons/dcdb9a916a6172.webp",
+      "source": "https://www.abioticdatabase.com/items/glimmering-meat-steak/"
+    },
+    "Cooked Gooey Meat Steak": {
+      "icon": "icons/0904a5e2780ce7.webp",
+      "source": "https://www.abioticdatabase.com/items/gooey-meat-steak/"
+    },
+    "Cooked Gutfish Eel Filet": {
+      "icon": "icons/9f15ae1c194922.webp",
+      "source": "https://www.abioticdatabase.com/items/gutfish-eel-filet/"
+    },
+    "Cooked IS-0098 Tentacles": {
+      "icon": "icons/1d8fe2255497ee.webp",
+      "source": "https://www.abioticdatabase.com/items/is-0098-tentacles/"
+    },
+    "Cooked Inkfish Filet": {
+      "icon": "icons/b177d3d94323de.webp",
+      "source": "https://www.abioticdatabase.com/items/inkfish-filet/"
+    },
+    "Cooked Moon Fish Filet": {
+      "icon": "icons/4e13dc76e9ba69.webp",
+      "source": "https://www.abioticdatabase.com/items/moon-fish-filet/"
+    },
+    "Cooked Peccary Chop": {
+      "icon": "icons/4395b15c70b4b0.webp",
+      "source": "https://www.abioticdatabase.com/items/peccary-chop/"
+    },
+    "Cooked Peccary Sausages": {
+      "icon": "icons/b408b6430f6b6e.webp",
+      "source": "https://www.abioticdatabase.com/items/peccary-sausages/"
+    },
+    "Cooked Penumbra Filet": {
+      "icon": "icons/2e4e6ab5594c7a.webp",
+      "source": "https://www.abioticdatabase.com/items/penumbra-filet/"
+    },
+    "Cooked Pest": {
+      "icon": "icons/388e98f4a00db4.webp",
+      "source": "https://www.abioticdatabase.com/items/pest/"
+    },
+    "Cooked Pest Rump": {
+      "icon": "icons/79069ee8362c68.webp",
+      "source": "https://www.abioticdatabase.com/items/pest-rump/"
+    },
+    "Cooked Pestato": {
+      "icon": "icons/970d2f8e49f92a.webp",
+      "source": "https://www.abioticdatabase.com/items/pestato/"
+    },
+    "Cooked Portal Fish Filet": {
+      "icon": "icons/15183b08cd857b.webp",
+      "source": "https://www.abioticdatabase.com/items/portal-fish-filet/"
+    },
+    "Cooked Pumpkin Slices": {
+      "icon": "icons/bfecf1f70c175f.webp",
+      "source": "https://www.abioticdatabase.com/items/cooked-pumpkin-slices/"
+    },
+    "Cooked Radfish Filet": {
+      "icon": "icons/4c8573946c4deb.webp",
+      "source": "https://www.abioticdatabase.com/items/radfish-filet/"
+    },
+    "Cooked Royal Pepper": {
+      "icon": "icons/404fa7b7c6a9b7.webp",
+      "source": "https://www.abioticdatabase.com/items/royal-pepper/"
+    },
+    "Cooked Silken Betta Filet": {
+      "icon": "icons/0b19cd821996e0.webp",
+      "source": "https://www.abioticdatabase.com/items/silken-betta-filet/"
+    },
+    "Cooked Silky Fish Florentine": {
+      "icon": "icons/1ed20d2b242221.webp",
+      "source": "https://www.abioticdatabase.com/items/silky-fish-florentine/"
+    },
+    "Cooked Skink Meat": {
+      "icon": "icons/2249d45d4854e4.webp",
+      "source": "https://www.abioticdatabase.com/items/skink-meat/"
+    },
+    "Cooked Stuffed Roast Peccary": {
+      "icon": "icons/41d2dd3bd68eca.webp",
+      "source": "https://www.abioticdatabase.com/items/stuffed-roast-peccary/"
+    },
+    "Corrupted Corn": {
+      "icon": "icons/e15f86943b1e9f.webp",
+      "source": "https://www.abioticdatabase.com/items/corrupted-corn/"
+    },
+    "Cosmato Salad Wrap": {
+      "icon": "icons/1ab72795db6321.webp",
+      "source": "https://www.abioticdatabase.com/items/cosmato-salad-wrap/"
+    },
+    "Creamy Corn Soup": {
+      "icon": "icons/ed249344594f52.webp",
+      "source": "https://www.abioticdatabase.com/items/creamy-corn-soup/"
+    },
+    "Creamy Tomato Bisque": {
+      "icon": "icons/681f3b9df550b3.webp",
+      "source": "https://www.abioticdatabase.com/items/creamy-tomato-bisque/"
+    },
+    "Creepy Meat Pie": {
+      "icon": "icons/2fe89eb640273c.webp",
+      "source": "https://www.abioticdatabase.com/items/creepy-meat-pie/"
+    },
+    "Crumbed Darkwater Fish": {
+      "icon": "icons/7d75f2dab04aab.webp",
+      "source": "https://www.abioticdatabase.com/items/crumbed-darkwater-fish/"
+    },
+    "Crunchy Crystal": {
+      "icon": "icons/fd4eec58d59899.webp",
+      "source": "https://www.abioticdatabase.com/items/crunchy-crystal/"
+    },
+    "Doznuts": {
+      "icon": "icons/bb88d73c720374.webp",
+      "source": "https://www.abioticdatabase.com/items/doznuts/"
+    },
+    "Eel Fat": {
+      "icon": "icons/929bbd49dd5721.webp",
+      "source": null
+    },
+    "Egg": {
+      "icon": "icons/32c9bcb10ced7f.webp",
+      "source": "https://www.abioticdatabase.com/items/egg/"
+    },
+    "Exor Arm": {
+      "icon": "icons/9f0942f93f8fc4.webp",
+      "source": "https://www.abioticdatabase.com/items/exor-arm/"
+    },
+    "Fish Bones": {
+      "icon": "icons/5ff5860ba5bf42.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Fish_Bones"
+    },
+    "Fish Oil": {
+      "icon": "icons/7dcdd01c305aa2.webp",
+      "source": null
+    },
+    "Fisherman's Glue": {
+      "icon": "icons/4ca346653a3ed4.webp",
+      "source": "https://www.abioticdatabase.com/items/fishermans-glue/"
+    },
+    "Fisherman's Glue (Soup)": {
+      "icon": "icons/0567e821d8cfdb.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Fisherman%27s_Glue_(Soup)"
+    },
+    "Fogiri": {
+      "icon": "icons/f0abd9fb90f239.webp",
+      "source": "https://www.abioticdatabase.com/items/fogiri/"
+    },
+    "Fogiri Platter": {
+      "icon": "icons/eaf6d872b168ba.webp",
+      "source": "https://www.abioticdatabase.com/items/fogiri-platter/"
+    },
+    "Gem Crab": {
+      "icon": "icons/1020d8e7e96a49.webp",
+      "source": "https://www.abioticdatabase.com/items/gem-crab/"
+    },
+    "Gem Sugar": {
+      "icon": "icons/40d43c88e1aa4d.webp",
+      "source": "https://www.abioticdatabase.com/items/gem-sugar/"
+    },
+    "Giga Glue": {
+      "icon": "icons/4a9e927dc13007.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Giga_Glue"
+    },
+    "Glacial Gazpacho": {
+      "icon": "icons/17772b9a3e2f75.webp",
+      "source": "https://www.abioticdatabase.com/items/glacial-gazpacho/"
+    },
+    "Glass Scrap": {
+      "icon": "icons/8157c04c34cece.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Glass_Scrap"
+    },
+    "Glow Eye": {
+      "icon": "icons/f005e1df971c86.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Glow_Eye"
+    },
+    "Glow Tulip": {
+      "icon": "icons/3e5d8ea0d0cd95.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Glow_Tulip"
+    },
+    "Glowing G\u00e2teau": {
+      "icon": "icons/d856483dab672e.webp",
+      "source": "https://www.abioticdatabase.com/items/glowing-g-teau/"
+    },
+    "Glue (Soup)": {
+      "icon": "icons/0567e821d8cfdb.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Glue_(Soup)"
+    },
+    "Gooey Mushroom Soup": {
+      "icon": "icons/111b1b8f38b7f6.webp",
+      "source": "https://www.abioticdatabase.com/items/gooey-mushroom-soup/"
+    },
+    "Gooey Tulip Salad": {
+      "icon": "icons/b1293c5eef7693.webp",
+      "source": "https://www.abioticdatabase.com/items/gooey-tulip-salad/"
+    },
+    "Greyeb": {
+      "icon": "icons/d4122356a32de8.webp",
+      "source": "https://www.abioticdatabase.com/items/greyeb/"
+    },
+    "Greyeb Chowder": {
+      "icon": "icons/a83553cf6dc6ff.webp",
+      "source": "https://www.abioticdatabase.com/items/greyeb-chowder/"
+    },
+    "Gumdrop Cookie": {
+      "icon": "icons/7ac36e8176a004.webp",
+      "source": "https://www.abioticdatabase.com/items/gumdrop-cookie/"
+    },
+    "Gumdrop Cookie Tray": {
+      "icon": "icons/34ef1bd1def8fd.webp",
+      "source": "https://www.abioticdatabase.com/items/gumdrop-cookie-tray/"
+    },
+    "Gutfish Unagi": {
+      "icon": "icons/488d09a8b4899f.webp",
+      "source": "https://www.abioticdatabase.com/items/gutfish-unagi/"
+    },
+    "Gutfish Unagi Platter": {
+      "icon": "icons/a50f6090042b42.webp",
+      "source": "https://www.abioticdatabase.com/items/gutfish-unagi-platter/"
+    },
+    "Harmonious Rice": {
+      "icon": "icons/0567e821d8cfdb.webp",
+      "source": "https://www.abioticdatabase.com/items/harmonious-rice/"
+    },
+    "Hearty Stew": {
+      "icon": "icons/fe223e073c644c.webp",
+      "source": "https://www.abioticdatabase.com/items/hearty-stew/"
+    },
+    "Homey Pasta": {
+      "icon": "icons/9472ed86960624.webp",
+      "source": "https://www.abioticdatabase.com/items/homey-pasta/"
+    },
+    "Honey": {
+      "icon": "icons/4c3e3ab8ee1c18.webp",
+      "source": "https://www.abioticdatabase.com/items/honey/"
+    },
+    "Honey Apple Ice Cream": {
+      "icon": "icons/4ba96263e80547.webp",
+      "source": "https://www.abioticdatabase.com/items/honey-apple-ice-cream/"
+    },
+    "Human Arm (Military)": {
+      "icon": "icons/f20f264cf0955e.webp",
+      "source": "https://www.abioticdatabase.com/items/human-arm-military/"
+    },
+    "Human Brain": {
+      "icon": "icons/4f3c4fd6b3dbec.webp",
+      "source": "https://www.abioticdatabase.com/items/human-brain/"
+    },
+    "Hydrochloric Acid": {
+      "icon": "icons/033d2162a28f8e.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Hydrochloric_Acid"
+    },
+    "Ice Cream": {
+      "icon": "icons/8d31d2211f88e5.webp",
+      "source": "https://www.abioticdatabase.com/items/ice-cream/"
+    },
+    "Icebergiri": {
+      "icon": "icons/92ee9dff9c02fa.webp",
+      "source": "https://www.abioticdatabase.com/items/icebergiri/"
+    },
+    "Icebergiri Platter": {
+      "icon": "icons/a3a951de74a6dd.webp",
+      "source": "https://www.abioticdatabase.com/items/icebergiri-platter/"
+    },
+    "Inky \"Egg\" Drop Soup": {
+      "icon": "icons/87d31be160c3b2.webp",
+      "source": "https://www.abioticdatabase.com/items/inky-egg-drop-soup/"
+    },
+    "Invalid ingredient combination": {
+      "icon": null,
+      "source": null
+    },
+    "Jowlers": {
+      "icon": "icons/3352484525bd16.webp",
+      "source": "https://www.abioticdatabase.com/items/jowlers/"
+    },
+    "Killer Soup": {
+      "icon": "icons/e283d903b0fb12.webp",
+      "source": "https://www.abioticdatabase.com/items/killer-soup/"
+    },
+    "Leyak Essence": {
+      "icon": "icons/bcb0ad889a5256.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Leyak_Essence"
+    },
+    "Lunar Bisque": {
+      "icon": "icons/ce74e8512c2517.webp",
+      "source": "https://www.abioticdatabase.com/items/lunar-bisque/"
+    },
+    "Mashed Potatoes": {
+      "icon": "icons/8e98af126d7e35.webp",
+      "source": "https://www.abioticdatabase.com/items/mashed-potatoes/"
+    },
+    "Meatrio Medley": {
+      "icon": "icons/ec961a4a02d6e7.webp",
+      "source": "https://www.abioticdatabase.com/items/meatrio-medley/"
+    },
+    "Meaty Stew": {
+      "icon": "icons/d511fcefd88541.webp",
+      "source": "https://www.abioticdatabase.com/items/meaty-stew/"
+    },
+    "Melted Ice Cream": {
+      "icon": "icons/7514993c93b3f9.webp",
+      "source": "https://www.abioticdatabase.com/items/melted-ice-cream/"
+    },
+    "Metal Scrap": {
+      "icon": "icons/fc2febd02648d2.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Metal_Scrap"
+    },
+    "Military M.R.E.": {
+      "icon": "icons/4214d9967a2cfa.webp",
+      "source": "https://www.abioticdatabase.com/items/military-m-r-e/"
+    },
+    "Milk Sac": {
+      "icon": "icons/a9f3502a926e44.webp",
+      "source": "https://www.abioticdatabase.com/items/milk-sac/"
+    },
+    "Murkweed": {
+      "icon": "icons/dbd89923e4a14f.webp",
+      "source": "https://www.abioticdatabase.com/items/murkweed/"
+    },
+    "Mushy Crab Sushi": {
+      "icon": "icons/c3cb66cb874f69.webp",
+      "source": "https://www.abioticdatabase.com/items/mushy-crab-sushi/"
+    },
+    "Mushy Crab Sushi Platter": {
+      "icon": "icons/90e38a9a98cb2c.webp",
+      "source": "https://www.abioticdatabase.com/items/mushy-crab-sushi-platter/"
+    },
+    "Opal Crab": {
+      "icon": null,
+      "source": "https://abioticfactor.wiki.gg/wiki/Opal_Crab"
+    },
+    "PLT Sandwich": {
+      "icon": "icons/10a84bbad78294.webp",
+      "source": "https://www.abioticdatabase.com/items/plt-sandwich/"
+    },
+    "Peccary Goulash": {
+      "icon": "icons/0a651a05cabc8b.webp",
+      "source": "https://www.abioticdatabase.com/items/peccary-goulash/"
+    },
+    "Peccary Noodle Soup": {
+      "icon": "icons/5ad4039b37c377.webp",
+      "source": "https://www.abioticdatabase.com/items/peccary-noodle-soup/"
+    },
+    "Peccary Skull": {
+      "icon": "icons/511dbb35f2cdc1.webp",
+      "source": "https://www.abioticdatabase.com/items/peccary-skull/"
+    },
+    "Peccary Stew": {
+      "icon": "icons/9f376c2bfe2321.webp",
+      "source": "https://www.abioticdatabase.com/items/peccary-stew/"
+    },
+    "Pekkie Brekkie Hash": {
+      "icon": "icons/6bf5a8f7d74a37.webp",
+      "source": "https://www.abioticdatabase.com/items/pekkie-brekkie-hash/"
+    },
+    "Penumbra Maki Plate": {
+      "icon": "icons/3141a510e9b2c6.webp",
+      "source": "https://www.abioticdatabase.com/items/penumbra-maki-plate/"
+    },
+    "Penumbra Nigiri": {
+      "icon": "icons/554b1fb13fe389.webp",
+      "source": "https://www.abioticdatabase.com/items/penumbra-nigiri/"
+    },
+    "Penumbra Nigiri Platter": {
+      "icon": "icons/ff2069e3eb8f3e.webp",
+      "source": "https://www.abioticdatabase.com/items/penumbra-nigiri-platter/"
+    },
+    "Pest Goulash": {
+      "icon": "icons/87f4b57422b843.webp",
+      "source": "https://www.abioticdatabase.com/items/pest-goulash/"
+    },
+    "Pest Pot Pie": {
+      "icon": "icons/cc6d5f252bac17.webp",
+      "source": "https://www.abioticdatabase.com/items/pest-pot-pie/"
+    },
+    "Piece of Crumbed Darkwater Fish": {
+      "icon": "icons/d0cf52eb597a3d.webp",
+      "source": "https://www.abioticdatabase.com/items/piece-of-crumbed-darkwater-fish/"
+    },
+    "Plastic Scrap": {
+      "icon": "icons/0fa90969c9a75b.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Plastic_Scrap"
+    },
+    "Poop Soup": {
+      "icon": "icons/618a4c22c43835.webp",
+      "source": "https://www.abioticdatabase.com/items/poop-soup/"
+    },
+    "Portal Fish Stew": {
+      "icon": "icons/d9b74664c502bd.webp",
+      "source": "https://www.abioticdatabase.com/items/portal-fish-stew/"
+    },
+    "Pot of Xanterium Rice": {
+      "icon": "icons/0567e821d8cfdb.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Pot_of_Xanterium_Rice"
+    },
+    "Potato": {
+      "icon": "icons/cd9830ae76f94f.webp",
+      "source": "https://www.abioticdatabase.com/items/potato/"
+    },
+    "Potato and Sausage Stew": {
+      "icon": "icons/04e0f1ba02ca48.webp",
+      "source": "https://www.abioticdatabase.com/items/potato-and-sausage-stew/"
+    },
+    "Pumpkin": {
+      "icon": "icons/6154ab77e2608a.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin/"
+    },
+    "Pumpkin Bread": {
+      "icon": "icons/3e1f925f003178.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-bread/"
+    },
+    "Pumpkin Cookie": {
+      "icon": "icons/49e2020d61ad41.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-cookie/"
+    },
+    "Pumpkin Cookie Tray": {
+      "icon": "icons/9bdcf0183d03b2.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-cookie-tray/"
+    },
+    "Pumpkin Ice Cream": {
+      "icon": "icons/54560f3d02154d.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-ice-cream/"
+    },
+    "Pumpkin Ravioli": {
+      "icon": "icons/77c4a5f918a2b6.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-ravioli/"
+    },
+    "Pumpkin Slice": {
+      "icon": "icons/b0aa9b2ed4a4aa.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-slice/"
+    },
+    "Pumpkin Soup": {
+      "icon": "icons/ce730cca204431.webp",
+      "source": "https://www.abioticdatabase.com/items/pumpkin-soup/"
+    },
+    "Purified Corn": {
+      "icon": "icons/a0619322fd6b20.webp",
+      "source": "https://www.abioticdatabase.com/items/purified-corn/"
+    },
+    "Rad Rice Bowl": {
+      "icon": "icons/5463b490a09600.webp",
+      "source": "https://www.abioticdatabase.com/items/rad-rice-bowl/"
+    },
+    "Radfish Chowder": {
+      "icon": "icons/7627884305f334.webp",
+      "source": "https://www.abioticdatabase.com/items/radfish-chowder/"
+    },
+    "Raw \"Carrot\" Cake": {
+      "icon": "icons/599e2110956c00.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-carrot-cake/"
+    },
+    "Raw \"Carrot\" Fries": {
+      "icon": "icons/55276d37cae3b0.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-carrot-fries/"
+    },
+    "Raw \"Egg\" & Peccary Tartine": {
+      "icon": "icons/a96833e6927373.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-egg-peccary-tartine/"
+    },
+    "Raw Alien Drumstick": {
+      "icon": "icons/1d6b588d3e3251.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-alien-drumstick/"
+    },
+    "Raw Anniversary Cake": {
+      "icon": "icons/70b72a50eb75b4.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-anniversary-cake/"
+    },
+    "Raw Antefish Filet": {
+      "icon": "icons/a4c05e2c6e2608.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-antefish-filet/"
+    },
+    "Raw Apple Pie": {
+      "icon": "icons/e1d3d1eebc376f.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-apple-pie/"
+    },
+    "Raw Carbuncle": {
+      "icon": "icons/21d502795e1965.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-carbuncle/"
+    },
+    "Raw Carbuncle Casserole": {
+      "icon": "icons/bf182557e8dd93.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-carbuncle-casserole/"
+    },
+    "Raw Carbuncle Pizza": {
+      "icon": "icons/b46308f2ebee75.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-carbuncle-pizza/"
+    },
+    "Raw Chordfish Filet": {
+      "icon": "icons/7ea391128516c4.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-chordfish-filet/"
+    },
+    "Raw Creamy Inkfish": {
+      "icon": "icons/ce0e1b1ddedfc0.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-creamy-inkfish/"
+    },
+    "Raw Creepy Meat Pie": {
+      "icon": "icons/d6966ef7f0b809.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-creepy-meat-pie/"
+    },
+    "Raw Crumbed Darkwater Fish": {
+      "icon": "icons/7fda2c2892b7e3.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-crumbed-darkwater-fish/"
+    },
+    "Raw Darkwater Fish Filet": {
+      "icon": "icons/9d69e8178c4848.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-darkwater-fish-filet/"
+    },
+    "Raw Dough": {
+      "icon": "icons/59d69e9aaebb9d.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-dough/"
+    },
+    "Raw Exor Heart": {
+      "icon": "icons/d0c7b9bfb50af2.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-exor-heart/"
+    },
+    "Raw Fr-eyed Rice": {
+      "icon": "icons/415415994b0d8a.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-fr-eyed-rice/"
+    },
+    "Raw Fries": {
+      "icon": "icons/57c4dcac4b84a9.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-fries/"
+    },
+    "Raw Frigid Queenfish Filet": {
+      "icon": "icons/cf394dfb1d72b1.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-frigid-queenfish-filet/"
+    },
+    "Raw Glimmering Meat Steak": {
+      "icon": "icons/035b880b99697b.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-glimmering-meat-steak/"
+    },
+    "Raw Glowing G\u00e2teau": {
+      "icon": "icons/0fef5f793e2945.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-glowing-g-teau/"
+    },
+    "Raw Gumdrop Cookie Tray": {
+      "icon": "icons/40aa87503bcade.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-gumdrop-cookie-tray/"
+    },
+    "Raw Gutfish Eel Filet": {
+      "icon": "icons/884292954c1ece.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-gutfish-eel-filet/"
+    },
+    "Raw IS-0098 Tentacles": {
+      "icon": "icons/c7b194aba57c7b.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-is-0098-tentacles/"
+    },
+    "Raw Inkfish Filet": {
+      "icon": "icons/7f39a83e83a338.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-inkfish-filet/"
+    },
+    "Raw Larva Meat": {
+      "icon": "icons/46c8b76d383751.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-larva-meat/"
+    },
+    "Raw Moon Fish Filet": {
+      "icon": "icons/5440c55bbda28d.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-moon-fish-filet/"
+    },
+    "Raw Nori Sheet Tray": {
+      "icon": "icons/2e06439c75423b.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-nori-sheet-tray/"
+    },
+    "Raw Peccary Chop": {
+      "icon": "icons/f6502acedc5996.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-peccary-chop/"
+    },
+    "Raw Peccary Sausages": {
+      "icon": "icons/aa214b35cc2916.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-peccary-sausages/"
+    },
+    "Raw Pekkie Brekkie Hash": {
+      "icon": "icons/56399f1ae1e243.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pekkie-brekkie-hash/"
+    },
+    "Raw Penumbra Filet": {
+      "icon": "icons/70addd560a5071.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-penumbra-filet/"
+    },
+    "Raw Pest": {
+      "icon": "icons/86e0e609734fec.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pest/"
+    },
+    "Raw Pest Pot Pie": {
+      "icon": "icons/c8876065a1ef16.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pest-pot-pie/"
+    },
+    "Raw Pest Rump": {
+      "icon": "icons/efc007e3e5d395.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pest-rump/"
+    },
+    "Raw Pestato": {
+      "icon": "icons/f3f87d3059125b.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pestato/"
+    },
+    "Raw Portal Fish Filet": {
+      "icon": "icons/ad483f7f65ff7c.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-portal-fish-filet/"
+    },
+    "Raw Pumpkin Cookie Tray": {
+      "icon": "icons/49be33d164eb00.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-cookie-tray/"
+    },
+    "Raw Pumpkin Dough": {
+      "icon": "icons/e930461ed9a478.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-dough/"
+    },
+    "Raw Pumpkin Pie": {
+      "icon": "icons/b550b717a06148.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-pie/"
+    },
+    "Raw Pumpkin Slices": {
+      "icon": "icons/6fe7431a78574c.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-pumpkin-slices/"
+    },
+    "Raw Radfish Filet": {
+      "icon": "icons/68b0aab74c728e.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-radfish-filet/"
+    },
+    "Raw Salted Honey Pie": {
+      "icon": "icons/6f61e6c46ef419.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-salted-honey-pie/"
+    },
+    "Raw Shadowberry Pie": {
+      "icon": "icons/e4f1afbfc6a256.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-shadowberry-pie/"
+    },
+    "Raw Shrimps Pack": {
+      "icon": "icons/6ee18f5763ac4f.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-shrimps-pack/"
+    },
+    "Raw Silken Betta Filet": {
+      "icon": "icons/6971e7f5ca90ae.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-silken-betta-filet/"
+    },
+    "Raw Silky Fish Florentine": {
+      "icon": "icons/6d6c0e74ca845f.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-silky-fish-florentine/"
+    },
+    "Raw Simple Pest Pie": {
+      "icon": "icons/fc2b378a782aec.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-simple-pest-pie/"
+    },
+    "Raw Skink Meat": {
+      "icon": "icons/aa4c55205ee0b7.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-skink-meat/"
+    },
+    "Raw Stuffed Mushroom Tray": {
+      "icon": "icons/32ad581b528d40.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-mushroom-tray/"
+    },
+    "Raw Stuffed Peppers Tray": {
+      "icon": "icons/bf816fd9015e48.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-peppers-tray/"
+    },
+    "Raw Stuffed Roast Peccary": {
+      "icon": "icons/f1cfc0132cc739.webp",
+      "source": "https://www.abioticdatabase.com/items/raw-stuffed-roast-peccary/"
+    },
+    "Reservoir Reserve": {
+      "icon": "icons/be8a99521ea0af.webp",
+      "source": "https://www.abioticdatabase.com/items/reservoir-reserve/"
+    },
+    "Ripening Alien Cheese Wheel": {
+      "icon": "icons/eceec99d2177fb.webp",
+      "source": "https://www.abioticdatabase.com/items/ripening-alien-cheese-wheel/"
+    },
+    "Risotto 98": {
+      "icon": "icons/b015641c5d5cd9.webp",
+      "source": "https://www.abioticdatabase.com/items/risotto-98/"
+    },
+    "Roasted Nori Sheet": {
+      "icon": "icons/d4d9d57bc7aa31.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-nori-sheet/"
+    },
+    "Roasted Nori Sheet Tray": {
+      "icon": "icons/6054e7f240a6e0.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-nori-sheet-tray/"
+    },
+    "Roasted Nori Snack": {
+      "icon": "icons/5a8386528fa6b0.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-nori-snack/"
+    },
+    "Roasted Stuffed Mushroom": {
+      "icon": "icons/d0cfa6f421f17d.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-stuffed-mushroom/"
+    },
+    "Roasted Stuffed Mushroom Tray": {
+      "icon": "icons/891877417684a4.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-stuffed-mushroom-tray/"
+    },
+    "Roasted Stuffed Pepper": {
+      "icon": "icons/78d5f73af5c421.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-stuffed-pepper/"
+    },
+    "Roasted Stuffed Peppers Tray": {
+      "icon": "icons/a551b804fb4beb.webp",
+      "source": "https://www.abioticdatabase.com/items/roasted-stuffed-peppers-tray/"
+    },
+    "Rootbear": {
+      "icon": "icons/6d5e45cf31f851.webp",
+      "source": "https://www.abioticdatabase.com/items/rootbear/"
+    },
+    "Rootbear Float": {
+      "icon": "icons/030de22dbc5a52.webp",
+      "source": "https://www.abioticdatabase.com/items/rootbear-float/"
+    },
+    "Rotten Fish": {
+      "icon": "icons/5bf9282251e28c.webp",
+      "source": "https://www.abioticdatabase.com/items/rotten-fish/"
+    },
+    "Rotten Food": {
+      "icon": "icons/ce76b38e62cb8b.webp",
+      "source": "https://www.abioticdatabase.com/items/rotten-food/"
+    },
+    "Royal Pepper": {
+      "icon": "icons/74cc4190f632c5.webp",
+      "source": "https://www.abioticdatabase.com/items/royal-pepper/"
+    },
+    "Salt": {
+      "icon": "icons/49f8edc3eb21c8.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Salt"
+    },
+    "Shadowberries": {
+      "icon": "icons/00a8054bc86188.webp",
+      "source": "https://www.abioticdatabase.com/items/shadowberries/"
+    },
+    "Shadowberry Milkshake": {
+      "icon": "icons/4a53b41e72741d.webp",
+      "source": "https://www.abioticdatabase.com/items/shadowberry-milkshake/"
+    },
+    "Shrimp": {
+      "icon": "icons/b905693c519498.webp",
+      "source": "https://www.abioticdatabase.com/items/shrimp/"
+    },
+    "Shrimps Pack": {
+      "icon": "icons/6c2e1faf802eb6.webp",
+      "source": "https://www.abioticdatabase.com/items/shrimps-pack/"
+    },
+    "Silky Consomm\u00e9": {
+      "icon": "icons/9f43d75bf7dc61.webp",
+      "source": "https://www.abioticdatabase.com/items/silky-consomm/"
+    },
+    "Silky Temaki": {
+      "icon": "icons/7e63f0cd8a3831.webp",
+      "source": "https://www.abioticdatabase.com/items/silky-temaki/"
+    },
+    "Silver Scrap": {
+      "icon": "icons/033b96a53c4905.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Silver_Scrap"
+    },
+    "Simple Tomato Soup": {
+      "icon": "icons/a501a634abe42a.webp",
+      "source": "https://www.abioticdatabase.com/items/simple-tomato-soup/"
+    },
+    "Single Colorful Maki": {
+      "icon": "icons/a5990e8745bdd7.webp",
+      "source": "https://www.abioticdatabase.com/items/single-colorful-maki/"
+    },
+    "Single Penumbra Maki": {
+      "icon": "icons/3a98d64d6f813b.webp",
+      "source": "https://www.abioticdatabase.com/items/single-penumbra-maki/"
+    },
+    "Skip": {
+      "icon": "icons/3da474537ac378.webp",
+      "source": "https://www.abioticdatabase.com/items/skip/"
+    },
+    "Slice of \"Carrot\" Cake": {
+      "icon": "icons/aa8847b678f6c8.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-carrot-cake/"
+    },
+    "Slice of Anniversary Cake": {
+      "icon": "icons/90b44b69626e62.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-anniversary-cake/"
+    },
+    "Slice of Apple Pie": {
+      "icon": "icons/671f2315f61901.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-apple-pie/"
+    },
+    "Slice of Carbuncle Casserole": {
+      "icon": "icons/f2b8e0e31077f3.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-carbuncle-casserole/"
+    },
+    "Slice of Carbuncle Pizza": {
+      "icon": "icons/fafee08bec0472.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-carbuncle-pizza/"
+    },
+    "Slice of Creepy Meat Pie": {
+      "icon": "icons/25dc9b83320963.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-creepy-meat-pie/"
+    },
+    "Slice of Glowing G\u00e2teau": {
+      "icon": "icons/f1e73accf1fe98.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-glowing-g-teau/"
+    },
+    "Slice of Pekkie Brekkie Hash": {
+      "icon": "icons/04b88b2e44adae.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-pekkie-brekkie-hash/"
+    },
+    "Slice of Pest Pot Pie": {
+      "icon": "icons/93e832faf7d79c.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-pest-pot-pie/"
+    },
+    "Slice of Pumpkin Pie": {
+      "icon": "icons/ef665d5f98cdd6.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-pumpkin-pie/"
+    },
+    "Slice of Salted Honey Pie": {
+      "icon": "icons/021c49783f8523.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-salted-honey-pie/"
+    },
+    "Slice of Shadowberry Pie": {
+      "icon": "icons/29dcfa17582702.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-shadowberry-pie/"
+    },
+    "Slice of Simple Pest Pie": {
+      "icon": "icons/3b3c396c577cc9.webp",
+      "source": "https://www.abioticdatabase.com/items/slice-of-simple-pest-pie/"
+    },
+    "Slushie": {
+      "icon": "icons/58d384d62c05f4.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Slushie"
+    },
+    "Solder (Material)": {
+      "icon": "icons/2663192ffc43c2.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Solder_(Material)"
+    },
+    "Solder (Soup)": {
+      "icon": "icons/0567e821d8cfdb.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Solder_(Soup)"
+    },
+    "Space Lettuce": {
+      "icon": "icons/4871481bd8a504.webp",
+      "source": "https://www.abioticdatabase.com/items/space-lettuce/"
+    },
+    "Spicy Royal Bisque": {
+      "icon": "icons/babf439d7e1bea.webp",
+      "source": "https://www.abioticdatabase.com/items/spicy-royal-bisque/"
+    },
+    "Split Pea Soup": {
+      "icon": "icons/3a69f15dbb5319.webp",
+      "source": "https://www.abioticdatabase.com/items/split-pea-soup/"
+    },
+    "Sugary Slop": {
+      "icon": "icons/e9c9dabd95ee11.webp",
+      "source": "https://www.abioticdatabase.com/items/sugary-slop/"
+    },
+    "Super Tomato": {
+      "icon": "icons/8cdf790736db5f.webp",
+      "source": "https://www.abioticdatabase.com/items/super-tomato/"
+    },
+    "Super Tomato Soup": {
+      "icon": "icons/80d2d026f87e57.webp",
+      "source": "https://www.abioticdatabase.com/items/super-tomato-soup/"
+    },
+    "Sustenance Soup": {
+      "icon": "icons/95405b60015b0d.webp",
+      "source": "https://www.abioticdatabase.com/items/sustenance-soup/"
+    },
+    "Sweet Porridge": {
+      "icon": "icons/f7be37d48e0912.webp",
+      "source": "https://www.abioticdatabase.com/items/sweet-porridge/"
+    },
+    "Tech Scrap": {
+      "icon": "icons/7cdd61e8713152.webp",
+      "source": "https://abioticfactor.wiki.gg/wiki/Tech_Scrap"
+    },
+    "The Bad Soda": {
+      "icon": "icons/8872bb836c34dc.webp",
+      "source": "https://www.abioticdatabase.com/items/the-bad-soda/"
+    },
+    "Tomato": {
+      "icon": "icons/85cd2366c32352.webp",
+      "source": "https://www.abioticdatabase.com/items/tomato/"
+    },
+    "Toxic Soup": {
+      "icon": "icons/00c49b04513749.webp",
+      "source": "https://www.abioticdatabase.com/items/toxic-soup/"
+    },
+    "Unadon and \"Egg\"": {
+      "icon": "icons/a7d23ead6102b5.webp",
+      "source": "https://www.abioticdatabase.com/items/unadon-and-egg/"
+    },
+    "Unagi Temaki": {
+      "icon": "icons/818059fc596523.webp",
+      "source": "https://www.abioticdatabase.com/items/unagi-temaki/"
+    },
+    "Veggie Stew": {
+      "icon": "icons/b1f096c978f47e.webp",
+      "source": "https://www.abioticdatabase.com/items/veggie-stew/"
+    },
+    "Vial of Milk": {
+      "icon": "icons/d5230e894113bb.webp",
+      "source": "https://www.abioticdatabase.com/items/vial-of-milk/"
+    },
+    "Vibrant Exor Arm": {
+      "icon": "icons/b6d6c151e620db.webp",
+      "source": "https://www.abioticdatabase.com/items/vibrant-exor-arm/"
+    },
+    "Water": {
+      "icon": null,
+      "source": null
+    },
+    "Witching Hour Brew": {
+      "icon": "icons/0045b66cab973d.webp",
+      "source": "https://www.abioticdatabase.com/items/witching-hour-brew/"
+    },
+    "Xanterium Rice": {
+      "icon": "icons/77d3a190015715.webp",
+      "source": "https://www.abioticdatabase.com/items/xanterium-rice/"
+    },
+    "Solder": {
+      "icon": "icons/2663192ffc43c2.webp"
+    }
+  }
+}
